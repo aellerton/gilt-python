@@ -1,0 +1,1882 @@
+{
+  "sales": [
+    {
+      "name": "Peter Rabbit & Beatrix Potter",
+      "sale": "https://api.gilt.com/v1/sales/kids/peter-rabbit/detail.json",
+      "sale_key": "peter-rabbit",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/peter-rabbit?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139171305/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139171729/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139171524/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139170795/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139170804/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139171327/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-05T17:00:00Z"
+    },
+    {
+      "name": "Good Habit Gluten-Free",
+      "sale": "https://api.gilt.com/v1/sales/kids/good-habit-glute-539/detail.json",
+      "sale_key": "good-habit-glute-539",
+      "store": "kids",
+      "sale_url": "http://www.gilttaste.com/specials?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602854/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602889/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602846/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602802/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602804/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139602856/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-02T05:00:00Z"
+    },
+    {
+      "name": "Step into Spring with Pediped Shoes",
+      "sale": "https://api.gilt.com/v1/sales/kids/hop-into-easter-with/detail.json",
+      "sale_key": "hop-into-easter-with",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/hop-into-easter-with?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139174350/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139173422/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139174332/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139173622/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139173645/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139174355/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-04T17:00:00Z"
+    },
+    {
+      "name": "miYim: Organic Toys & Gifts",
+      "sale": "https://api.gilt.com/v1/sales/kids/jellycat-or-mary-mey/detail.json",
+      "sale_key": "jellycat-or-mary-mey",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/jellycat-or-mary-mey?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528911/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528923/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3953/139530738/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528858/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139529495/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528913/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-04-02T01:00:00Z"
+    },
+    {
+      "name": "Hotel Beaux Arts - Miami",
+      "sale": "https://api.gilt.com/v1/sales/kids/hotel-beaux-arts-831/detail.json",
+      "sale_key": "hotel-beaux-arts-831",
+      "store": "kids",
+      "sale_url": "http://www.jetsetter.com/sale/hotelbeauxartsmiami?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi&oaff=20120223hotelbeauxartsmiami&rr=giltchildren&plt=mosaic",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139444683/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139442829/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139444634/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139443641/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139443800/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139444687/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-02T05:00:00Z"
+    },
+    {
+      "name": "Pearhead & Sterling Silver Gifts",
+      "sale": "https://api.gilt.com/v1/sales/kids/lil-peach-by-pearhea/detail.json",
+      "sale_key": "lil-peach-by-pearhea",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/lil-peach-by-pearhea?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139591870/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139593206/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139591860/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139591812/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139592118/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139591872/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-03T17:00:00Z"
+    },
+    {
+      "name": "Top Easter Dresses: Kayce Hughes & More",
+      "sale": "https://api.gilt.com/v1/sales/kids/kayce-hughes-easter/detail.json",
+      "sale_key": "kayce-hughes-easter",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/kayce-hughes-easter?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139172975/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139173054/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139172945/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139172584/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139172600/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139172993/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-29T17:00:00Z",
+      "ends": "2012-03-04T17:00:00Z"
+    },
+    {
+      "name": "Trumpette Socks & Apparel",
+      "sale": "https://api.gilt.com/v1/sales/kids/trumpette-socks-423/detail.json",
+      "sale_key": "trumpette-socks-423",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/trumpette-socks-423?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139529101/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528208/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528924/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528275/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139528281/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139529115/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-03T17:00:00Z",
+      "description": "When it comes to adorable baby socks, Trumpette has the market cornered. Don’t miss this selection of creative, colorful styles for boys and girls, including high-top socks and sweet Mary Jane booties. Packed in cutesy egg crates and sparkly keepsake boxes, the wrapping is half the fun."
+    },
+    {
+      "name": "Easter Styles by Simonetta & Sonia Rykiel",
+      "sale": "https://api.gilt.com/v1/sales/kids/easter-dress-up-by-s/detail.json",
+      "sale_key": "easter-dress-up-by-s",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/easter-dress-up-by-s?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139520455/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3951/139519006/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139520269/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3951/139519215/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3951/139519225/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139520521/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-03T17:00:00Z",
+      "description": "Easter clothes are the cutest, and we've got a big selection to choose from. Dress your little girl in a darling print dress — or maybe a colorful top-and-skirt combo will suit her personality better. Our favorite look: Sonia Rykiel's cherry-print dress. The red-and-pink color combo definitely pops. Girly girls will love it!"
+    },
+    {
+      "name": "Strawberry Hill - Jamaica",
+      "sale": "https://api.gilt.com/v1/sales/kids/strawberry-hill-471/detail.json",
+      "sale_key": "strawberry-hill-471",
+      "store": "kids",
+      "sale_url": "http://www.jetsetter.com/sale/strawberryhill?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi&oaff=20120228strawberryhill&rr=giltchildren&plt=mosaic",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429308/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429337/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429300/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429254/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429257/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3942/139429310/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-01T05:00:00Z"
+    },
+    {
+      "name": "Omaha Steaks",
+      "sale": "https://api.gilt.com/v1/sales/kids/omaha-steaks-dsr/detail.json",
+      "sale_key": "omaha-steaks-dsr",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/home/omaha-steaks-real?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139595986/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139593943/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139594032/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139594749/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139594794/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139594047/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-01T05:00:00Z",
+      "description": "Up to 50% off! This is the perfect chance to stock up on gourmet steaks. "
+    },
+    {
+      "name": "Spring Kids' Decor",
+      "sale": "https://api.gilt.com/v1/sales/kids/decor-easter/detail.json",
+      "sale_key": "decor-easter",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/decor-easter?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177082/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177106/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177029/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139176744/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139176749/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177083/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-02T17:00:00Z",
+      "description": ""
+    },
+    {
+      "name": "Joyfolie's Egg-ceptional Shoes",
+      "sale": "https://api.gilt.com/v1/sales/kids/joyfolie/detail.json",
+      "sale_key": "joyfolie",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/joyfolie?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3444/134448569/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139348706/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3951/139510043/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3444/134448515/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3950/139509818/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3951/139510092/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-28T17:00:00Z",
+      "ends": "2012-03-02T17:00:00Z",
+      "description": "These charming shoes will make you melt! We've seen it all — and shoes don't get much cuter than this. The colorful footwear is adorned with flowers and bows — perfect for Easter dress-up."
+    },
+    {
+      "name": "Kids' Letter Charms by Amelia Rose",
+      "sale": "https://api.gilt.com/v1/sales/kids/pretty-in-pastels-am/detail.json",
+      "sale_key": "pretty-in-pastels-am",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/pretty-in-pastels-am?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3911/139112390/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3911/139112312/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3911/139112382/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3911/139112337/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139347948/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3911/139112392/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-03-01T17:00:00Z",
+      "description": "One cool way to make your kids stand out: Adorn them with one of Amelia Rose’s beautiful initial charm necklaces this Easter (you can get one for yourself, too!). Each features a bold letter embossed in gold on a dainty matching chain, and all the letters of the alphabet are represented, so whether you’ve got an Ava or a Zahara, you’re good to go. "
+    },
+    {
+      "name": "Zac Posen",
+      "sale": "https://api.gilt.com/v1/sales/kids/zac-posen-033/detail.json",
+      "sale_key": "zac-posen-033",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/women/zac-posen-268?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597969/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597873/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597958/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597909/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597912/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3959/139597971/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-02-29T05:00:00Z",
+      "description": "We love how effortlessly Hollywood favorite Zac Posen masters the intricate details in his sophisticated designs — and the end of a season is a great occasion to snag some Posen. There's lots to love in this selection, which is full of dramatic floor-length gowns, silk frocks rendered in striking hues and intriguing silhouettes, elegant separates, and plenty LBDs that you'll wear forever."
+    },
+    {
+      "name": "The Coffee & Tea Event",
+      "sale": "https://api.gilt.com/v1/sales/kids/the-coffee/detail.json",
+      "sale_key": "the-coffee",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/home/coffee-event-467?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521566/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521666/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521559/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521795/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521329/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521569/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-02-28T17:00:00Z",
+      "description": "Sip those winter blues away—and get fully caffeinated while you’re at it— with our coffee and tea event. Shop for high-tech brewers, classic presses, kettles, frothers, mugs, and more, from your favorite brands like Bodum, Cuisinart, and Emile Henry. "
+    },
+    {
+      "name": "Pippa & Julie Easter Dresses",
+      "sale": "https://api.gilt.com/v1/sales/kids/pippa-205/detail.json",
+      "sale_key": "pippa-205",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/pippa-205?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184537/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184493/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184531/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184508/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184509/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184538/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-03-02T17:00:00Z",
+      "description": "Temperatures are beginning to rise, and it's almost time to dress up your little girl for Easter. These adorable pastel dresses with bow and ruffle embellishments are sweet-as-can-be and utterly irresistible. Our favorite: The white dot dress with the silk pink bow!"
+    },
+    {
+      "name": "\"Sunday Best\" for Boys",
+      "sale": "https://api.gilt.com/v1/sales/kids/boys-apparel-easter/detail.json",
+      "sale_key": "boys-apparel-easter",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/boys-apparel-easter?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139179385/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139178606/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139179701/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139178728/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139178731/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139179389/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-03-01T17:00:00Z",
+      "description": "Let your little man make his Easter debut in his \"Sunday Best!\" Pair adorable button-downs and vests with blazers and khakis for a comfy combo that will take your tot from Easter morning to egg hunt."
+    },
+    {
+      "name": "The Perfect Easter Basket",
+      "sale": "https://api.gilt.com/v1/sales/kids/build-your-own-easte/detail.json",
+      "sale_key": "build-your-own-easte",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/build-your-own-easte?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177508/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177202/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177483/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177302/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177317/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3917/139177513/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T17:00:00Z",
+      "ends": "2012-03-01T17:00:00Z",
+      "description": "Don't stress about finding the perfect Easter gifts for your little one — we've going everything right here! From plush toys and dolls to jewelry and books, your cutie will be one happy kid on Easter morning."
+    },
+    {
+      "name": "Petit Organics",
+      "sale": "https://api.gilt.com/v1/sales/kids/petit-organics/detail.json",
+      "sale_key": "petit-organics",
+      "store": "kids",
+      "sale_url": "http://www.giltcity.com/newyork/petitorganics?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi&oaff=kids&plt=petitorganics_discover",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604800/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604724/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604792/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604746/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604748/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3960/139604802/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T05:00:00Z",
+      "ends": "2012-02-28T17:00:00Z"
+    },
+    {
+      "name": "Kids' Rain Boots & Umbrellas by Däv",
+      "sale": "https://api.gilt.com/v1/sales/kids/dav-kids-rainboots-a/detail.json",
+      "sale_key": "dav-kids-rainboots-a",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/dav-kids-rainboots-a?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246139/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246011/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246131/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246056/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246231/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139246144/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T02:00:00Z",
+      "ends": "2012-03-01T02:00:00Z",
+      "description": "Spring showers are on their way, but this colorful rain gear will keep kids' spirits up on the darkest days. The boots come in playful kid-friendly patterns (our favorite: the pink-and-red cowboy print), and boast unexpected details like sneaker-style laces. Matching umbrellas round out this cute, weatherproof assortment."
+    },
+    {
+      "name": "D.L. & Co. Candles & Diffusers",
+      "sale": "https://api.gilt.com/v1/sales/kids/dl-412/detail.json",
+      "sale_key": "dl-412",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/home/dl-136?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165335/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165019/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165292/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165089/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165092/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139165348/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T02:00:00Z",
+      "ends": "2012-02-28T05:00:00Z",
+      "description": "Scent seduces — something apparent by this collection of swank diffusers and soy-based candles. Set the mood with a 10-sided diffuser in a scent called Lady Rhubarb, a citrusy mix of blood orange, red mandarin, grapefruit, and sandalwood. Or welcome spring by opting for one of the beautifully presented candles in refreshingly fruity notes like apple and pear."
+    },
+    {
+      "name": "Bouton Kids' Apparel: Hand-Woven Fabrics",
+      "sale": "https://api.gilt.com/v1/sales/kids/bouton-kids-artisina/detail.json",
+      "sale_key": "bouton-kids-artisina",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/bouton-kids-artisina?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451096/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451017/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451087/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451041/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451043/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451099/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T02:00:00Z",
+      "ends": "2012-03-02T02:00:00Z",
+      "description": "This limited-edition line features unique, beautiful prints. The clothes are made with hand-woven textiles, and the designs feature influences from all over the world, including Bombay, Boston, Washington, New York, Paris, and London. The dresses, button-downs, and other pieces in this sale are works of art.  "
+    },
+    {
+      "name": "New Style! Image Canvas Photo Art",
+      "sale": "https://api.gilt.com/v1/sales/kids/image-canvas-pho-452/detail.json",
+      "sale_key": "image-canvas-pho-452",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/image-canvas-pho-452?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139450757/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139450770/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139450749/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139450706/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139451506/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139450759/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T02:00:00Z",
+      "ends": "2012-03-01T02:00:00Z",
+      "description": "Make your photos a work of art! It's easy: Image Canvas will display your fondest memories on art-quality canvas, so you can hang them up for all to see. You can edit and crop the photos yourself, and they'll arrive ready-to-hang. Talk about picture perfect."
+    },
+    {
+      "name": "Get Ready for Baby",
+      "sale": "https://api.gilt.com/v1/sales/kids/top-20-gear-pick-800/detail.json",
+      "sale_key": "top-20-gear-pick-800",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/top-20-gear-pick-800?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085207/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085121/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085197/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085146/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085148/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3708/137085209/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-27T02:00:00Z",
+      "ends": "2012-03-01T02:00:00Z",
+      "description": ""
+    },
+    {
+      "name": "DanceFIT Studios",
+      "sale": "https://api.gilt.com/v1/sales/kids/dancefitbos/detail.json",
+      "sale_key": "dancefitbos",
+      "store": "kids",
+      "sale_url": "www.giltcity.com/boston/dancefitbos?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi&oaff=kids&plt=dancefitbos_discover",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521306/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521342/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521298/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521256/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521258/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3952/139521308/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-26T17:00:00Z",
+      "ends": "2012-02-28T05:00:00Z"
+    },
+    {
+      "name": "D'Artagnan Charcuterie",
+      "sale": "https://api.gilt.com/v1/sales/kids/good-habit-glute-854/detail.json",
+      "sale_key": "good-habit-glute-854",
+      "store": "kids",
+      "sale_url": "http://www.gilttaste.com/specials?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445962/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445862/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445952/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445894/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445896/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3944/139445964/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-26T17:00:00Z",
+      "ends": "2012-02-28T05:00:00Z"
+    },
+    {
+      "name": "Mehraban One-of-a-Kind Rugs",
+      "sale": "https://api.gilt.com/v1/sales/kids/mehraban-rugs-410/detail.json",
+      "sale_key": "mehraban-rugs-410",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/home/mehraban-rugs?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139350539/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139348893/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139350527/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139349924/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139349926/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139350543/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "A rug can make or break a room. And you can make any space look effortlessly cool by laying down one of these vintage, tribal, or contemporary designs from Morocco, Turkey, and beyond. Each rug looks unique — as though you had picked it up at a flea market in Paris or at a souk in Marrakech. "
+    },
+    {
+      "name": "Baby Boutique",
+      "sale": "https://api.gilt.com/v1/sales/kids/baby-boutique-224/detail.json",
+      "sale_key": "baby-boutique-224",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/baby-boutique-224/ss?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3098/130988162/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3167/131672290/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3098/130988124/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3098/130987684/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3098/130987687/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3098/130988170/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-03-09T06:00:00Z",
+      "description": "Parents, meet your secret weapon: From naptime to mealtime to playtime — and any other time you can think of — this sale has you covered. Baby bedding, clothes, toys, and diaper bags are just some of the must-haves you'll find in this array from our favorite baby brands."
+    },
+    {
+      "name": "The Boys' Shop",
+      "sale": "https://api.gilt.com/v1/sales/kids/the-boys-shop-444/detail.json",
+      "sale_key": "the-boys-shop-444",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/the-boys-shop-444?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616728/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616635/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616713/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616661/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139004876/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616730/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-03-09T06:00:00Z",
+      "description": "Rough-and-tumble boys can wear out their clothes quickly, and the Gilt Baby & Kids team kept that in mind when choosing this stylish selection. Everything in this sale can stand up to the ultimate level of wear and tear! "
+    },
+    {
+      "name": "The Girls' Shop",
+      "sale": "https://api.gilt.com/v1/sales/kids/the-girls-shop-342/detail.json",
+      "sale_key": "the-girls-shop-342",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/the-girls-shop-342?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616302/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616228/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616293/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616250/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139005370/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3461/134616304/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-03-10T06:00:00Z",
+      "description": "From dresses to sandals, this sale is packed with some of our favorite looks for little girls. And since this bunch includes both versatile neutrals and playful brights, she'll have plenty to choose from no matter her style."
+    },
+    {
+      "name": "Cold-Weather Accessories Blowout: Up to 75% Off",
+      "sale": "https://api.gilt.com/v1/sales/kids/cold-weather-acc-266/detail.json",
+      "sale_key": "cold-weather-acc-266",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/men/cold-weather-acc-274?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189146/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189079/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189138/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189102/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189103/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189148/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "Hats, gloves, and scarves. It’s just three little things, but try making your way through the colder months without 'em. This sale's got a massive selection of indispensable accouterments — in everything from leather to wool to cashmere — so you can stay warm in style until the spring thaw sets in. "
+    },
+    {
+      "name": "The Toy Shop",
+      "sale": "https://api.gilt.com/v1/sales/kids/the-toy-shop-134/detail.json",
+      "sale_key": "the-toy-shop-134",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/the-toy-shop-134?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139007173/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139006506/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139007057/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139006607/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139006613/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139007175/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-03-10T06:00:00Z",
+      "description": "Toys can take your tot's IQ to new levels, so it's important to keep plenty of them on hand. This sale includes brands that we have the utmost respect for — and we know these products will pump up the fun factor in your home. "
+    },
+    {
+      "name": "Tommy Hilfiger Boys' Apparel",
+      "sale": "https://api.gilt.com/v1/sales/kids/tommy-hilfiger-995/detail.json",
+      "sale_key": "tommy-hilfiger-995",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/children/tommy-hilfiger-995?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975761/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975902/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975578/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975097/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975165/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975836/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-02-29T17:00:00Z",
+      "description": "All-American. Preppy. Effortless. These things are synonymous with iconic brand Tommy Hilfiger, and this collection of boy’s separates embraces the energy of the label — bold stripes and rugged materials included. Think flannel shirts, chino pants, and button-downs that'll give your kid preppy-chic appeal.\r\n"
+    },
+    {
+      "name": "Wardrobe Essentials: Everything You Need",
+      "sale": "https://api.gilt.com/v1/sales/kids/wardrobe-essenti-931/detail.json",
+      "sale_key": "wardrobe-essenti-931",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/women/wardrobe-essenti-591?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454294/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454230/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454285/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454252/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454253/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139454296/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-25T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z"
+    }
+  ]
+}

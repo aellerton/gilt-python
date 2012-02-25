@@ -6,7 +6,7 @@ setup(
     version = __version__,
     description = "Gilt API client",
     author = "Gilt Groupe",
-    author_email = "python-api@gilt.com",
+    author_email = "python-tech@gilt.com",
     url = "http://github.com/gilt/gilt-python/",
     keywords = ["gilt"],
     install_requires = ["httplib2 == 0.7.1"],

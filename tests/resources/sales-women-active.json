@@ -1,0 +1,2720 @@
+{
+  "sales": [
+    {
+      "name": "Jewelry Under $50",
+      "sale": "https://api.gilt.com/v1/sales/women/fashion-jewelry-898/detail.json",
+      "sale_key": "fashion-jewelry-898",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/fashion-jewelry-898?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139255522/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139254008/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139253373/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139253317/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139255211/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139255529/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T17:00:00Z",
+      "description": "It may feel like you’re stealing when you snap up items from our beautiful collection of jewelry under $50, but don’t worry — you won’t end up in cuffs. (Unless, of course, you're lucky enough to snag one of the opulent cuff styles here.) Other can't-miss finds include colorful cocktail rings, dangling earrings, and whimsical pendants — and that's just the beginning.\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/125706322/detail.json",
+        "https://api.gilt.com/v1/products/87560318/detail.json",
+        "https://api.gilt.com/v1/products/98375348/detail.json",
+        "https://api.gilt.com/v1/products/124975373/detail.json",
+        "https://api.gilt.com/v1/products/135362562/detail.json",
+        "https://api.gilt.com/v1/products/131083477/detail.json",
+        "https://api.gilt.com/v1/products/87560303/detail.json",
+        "https://api.gilt.com/v1/products/129669152/detail.json",
+        "https://api.gilt.com/v1/products/126735391/detail.json",
+        "https://api.gilt.com/v1/products/84740127/detail.json",
+        "https://api.gilt.com/v1/products/87560324/detail.json",
+        "https://api.gilt.com/v1/products/82361583/detail.json",
+        "https://api.gilt.com/v1/products/124206516/detail.json",
+        "https://api.gilt.com/v1/products/126817910/detail.json",
+        "https://api.gilt.com/v1/products/34480012/detail.json",
+        "https://api.gilt.com/v1/products/122287264/detail.json",
+        "https://api.gilt.com/v1/products/127044981/detail.json",
+        "https://api.gilt.com/v1/products/80268966/detail.json",
+        "https://api.gilt.com/v1/products/124085717/detail.json",
+        "https://api.gilt.com/v1/products/131083538/detail.json",
+        "https://api.gilt.com/v1/products/131083482/detail.json",
+        "https://api.gilt.com/v1/products/78947253/detail.json",
+        "https://api.gilt.com/v1/products/68660421/detail.json",
+        "https://api.gilt.com/v1/products/100538950/detail.json",
+        "https://api.gilt.com/v1/products/131222897/detail.json",
+        "https://api.gilt.com/v1/products/87560309/detail.json",
+        "https://api.gilt.com/v1/products/124066439/detail.json",
+        "https://api.gilt.com/v1/products/53583848/detail.json",
+        "https://api.gilt.com/v1/products/85945375/detail.json",
+        "https://api.gilt.com/v1/products/82124899/detail.json",
+        "https://api.gilt.com/v1/products/81013946/detail.json",
+        "https://api.gilt.com/v1/products/85808740/detail.json",
+        "https://api.gilt.com/v1/products/65864098/detail.json",
+        "https://api.gilt.com/v1/products/83275940/detail.json",
+        "https://api.gilt.com/v1/products/78947259/detail.json",
+        "https://api.gilt.com/v1/products/125088092/detail.json",
+        "https://api.gilt.com/v1/products/80268964/detail.json",
+        "https://api.gilt.com/v1/products/131222790/detail.json",
+        "https://api.gilt.com/v1/products/86513941/detail.json",
+        "https://api.gilt.com/v1/products/90278795/detail.json",
+        "https://api.gilt.com/v1/products/129669061/detail.json",
+        "https://api.gilt.com/v1/products/82787754/detail.json",
+        "https://api.gilt.com/v1/products/124066441/detail.json",
+        "https://api.gilt.com/v1/products/124066454/detail.json",
+        "https://api.gilt.com/v1/products/124206499/detail.json",
+        "https://api.gilt.com/v1/products/14987987/detail.json",
+        "https://api.gilt.com/v1/products/84740362/detail.json",
+        "https://api.gilt.com/v1/products/82513992/detail.json",
+        "https://api.gilt.com/v1/products/87629828/detail.json",
+        "https://api.gilt.com/v1/products/85947792/detail.json",
+        "https://api.gilt.com/v1/products/83275943/detail.json",
+        "https://api.gilt.com/v1/products/83275952/detail.json",
+        "https://api.gilt.com/v1/products/126734679/detail.json",
+        "https://api.gilt.com/v1/products/131642418/detail.json",
+        "https://api.gilt.com/v1/products/78218933/detail.json",
+        "https://api.gilt.com/v1/products/86513910/detail.json",
+        "https://api.gilt.com/v1/products/98603745/detail.json",
+        "https://api.gilt.com/v1/products/124206513/detail.json",
+        "https://api.gilt.com/v1/products/127044979/detail.json",
+        "https://api.gilt.com/v1/products/126745238/detail.json",
+        "https://api.gilt.com/v1/products/83753665/detail.json",
+        "https://api.gilt.com/v1/products/82787821/detail.json",
+        "https://api.gilt.com/v1/products/122482869/detail.json",
+        "https://api.gilt.com/v1/products/39088080/detail.json",
+        "https://api.gilt.com/v1/products/82360810/detail.json",
+        "https://api.gilt.com/v1/products/98603754/detail.json",
+        "https://api.gilt.com/v1/products/131222890/detail.json",
+        "https://api.gilt.com/v1/products/87253097/detail.json",
+        "https://api.gilt.com/v1/products/126817905/detail.json",
+        "https://api.gilt.com/v1/products/45408190/detail.json",
+        "https://api.gilt.com/v1/products/131083479/detail.json",
+        "https://api.gilt.com/v1/products/85947782/detail.json",
+        "https://api.gilt.com/v1/products/85947786/detail.json",
+        "https://api.gilt.com/v1/products/131150743/detail.json",
+        "https://api.gilt.com/v1/products/99135382/detail.json",
+        "https://api.gilt.com/v1/products/126817931/detail.json",
+        "https://api.gilt.com/v1/products/77305743/detail.json",
+        "https://api.gilt.com/v1/products/86513917/detail.json",
+        "https://api.gilt.com/v1/products/131642423/detail.json",
+        "https://api.gilt.com/v1/products/44226641/detail.json",
+        "https://api.gilt.com/v1/products/132351395/detail.json",
+        "https://api.gilt.com/v1/products/78947316/detail.json",
+        "https://api.gilt.com/v1/products/28858989/detail.json",
+        "https://api.gilt.com/v1/products/78947325/detail.json",
+        "https://api.gilt.com/v1/products/82125589/detail.json",
+        "https://api.gilt.com/v1/products/89849449/detail.json",
+        "https://api.gilt.com/v1/products/25167196/detail.json",
+        "https://api.gilt.com/v1/products/57992568/detail.json",
+        "https://api.gilt.com/v1/products/21424645/detail.json",
+        "https://api.gilt.com/v1/products/124082119/detail.json",
+        "https://api.gilt.com/v1/products/129669150/detail.json",
+        "https://api.gilt.com/v1/products/86513881/detail.json",
+        "https://api.gilt.com/v1/products/126734702/detail.json",
+        "https://api.gilt.com/v1/products/86513912/detail.json",
+        "https://api.gilt.com/v1/products/86513894/detail.json",
+        "https://api.gilt.com/v1/products/126734718/detail.json",
+        "https://api.gilt.com/v1/products/86513939/detail.json",
+        "https://api.gilt.com/v1/products/81013972/detail.json",
+        "https://api.gilt.com/v1/products/132351393/detail.json",
+        "https://api.gilt.com/v1/products/132351415/detail.json",
+        "https://api.gilt.com/v1/products/125088068/detail.json",
+        "https://api.gilt.com/v1/products/71059769/detail.json",
+        "https://api.gilt.com/v1/products/86513915/detail.json",
+        "https://api.gilt.com/v1/products/133262493/detail.json",
+        "https://api.gilt.com/v1/products/39673303/detail.json",
+        "https://api.gilt.com/v1/products/17659314/detail.json",
+        "https://api.gilt.com/v1/products/132351327/detail.json",
+        "https://api.gilt.com/v1/products/124206568/detail.json",
+        "https://api.gilt.com/v1/products/39088614/detail.json",
+        "https://api.gilt.com/v1/products/131642380/detail.json",
+        "https://api.gilt.com/v1/products/131642460/detail.json",
+        "https://api.gilt.com/v1/products/17659315/detail.json",
+        "https://api.gilt.com/v1/products/82787741/detail.json",
+        "https://api.gilt.com/v1/products/126734706/detail.json",
+        "https://api.gilt.com/v1/products/98602358/detail.json",
+        "https://api.gilt.com/v1/products/125088087/detail.json",
+        "https://api.gilt.com/v1/products/126734723/detail.json",
+        "https://api.gilt.com/v1/products/131222893/detail.json",
+        "https://api.gilt.com/v1/products/126734729/detail.json",
+        "https://api.gilt.com/v1/products/126734708/detail.json",
+        "https://api.gilt.com/v1/products/129669155/detail.json",
+        "https://api.gilt.com/v1/products/125088078/detail.json",
+        "https://api.gilt.com/v1/products/18729839/detail.json",
+        "https://api.gilt.com/v1/products/90278792/detail.json",
+        "https://api.gilt.com/v1/products/92991558/detail.json",
+        "https://api.gilt.com/v1/products/133259069/detail.json",
+        "https://api.gilt.com/v1/products/82124897/detail.json",
+        "https://api.gilt.com/v1/products/126745192/detail.json",
+        "https://api.gilt.com/v1/products/124206623/detail.json",
+        "https://api.gilt.com/v1/products/37387702/detail.json",
+        "https://api.gilt.com/v1/products/81014010/detail.json",
+        "https://api.gilt.com/v1/products/124066445/detail.json",
+        "https://api.gilt.com/v1/products/124085898/detail.json",
+        "https://api.gilt.com/v1/products/87253121/detail.json",
+        "https://api.gilt.com/v1/products/81015503/detail.json",
+        "https://api.gilt.com/v1/products/132351374/detail.json",
+        "https://api.gilt.com/v1/products/67629303/detail.json",
+        "https://api.gilt.com/v1/products/124206504/detail.json",
+        "https://api.gilt.com/v1/products/89849414/detail.json",
+        "https://api.gilt.com/v1/products/82128679/detail.json",
+        "https://api.gilt.com/v1/products/127218971/detail.json",
+        "https://api.gilt.com/v1/products/129703290/detail.json",
+        "https://api.gilt.com/v1/products/124066443/detail.json",
+        "https://api.gilt.com/v1/products/93887913/detail.json",
+        "https://api.gilt.com/v1/products/131083488/detail.json",
+        "https://api.gilt.com/v1/products/126737000/detail.json",
+        "https://api.gilt.com/v1/products/92991596/detail.json",
+        "https://api.gilt.com/v1/products/89613615/detail.json",
+        "https://api.gilt.com/v1/products/92991564/detail.json",
+        "https://api.gilt.com/v1/products/98375648/detail.json",
+        "https://api.gilt.com/v1/products/124066449/detail.json",
+        "https://api.gilt.com/v1/products/98375304/detail.json",
+        "https://api.gilt.com/v1/products/133259090/detail.json",
+        "https://api.gilt.com/v1/products/132351409/detail.json",
+        "https://api.gilt.com/v1/products/124085842/detail.json",
+        "https://api.gilt.com/v1/products/132351369/detail.json",
+        "https://api.gilt.com/v1/products/91420076/detail.json",
+        "https://api.gilt.com/v1/products/30602762/detail.json",
+        "https://api.gilt.com/v1/products/38449346/detail.json",
+        "https://api.gilt.com/v1/products/65864200/detail.json",
+        "https://api.gilt.com/v1/products/98603761/detail.json",
+        "https://api.gilt.com/v1/products/90283400/detail.json",
+        "https://api.gilt.com/v1/products/124072761/detail.json",
+        "https://api.gilt.com/v1/products/89849436/detail.json",
+        "https://api.gilt.com/v1/products/127218973/detail.json",
+        "https://api.gilt.com/v1/products/93884412/detail.json",
+        "https://api.gilt.com/v1/products/74096035/detail.json",
+        "https://api.gilt.com/v1/products/82514066/detail.json",
+        "https://api.gilt.com/v1/products/14987879/detail.json",
+        "https://api.gilt.com/v1/products/131642248/detail.json",
+        "https://api.gilt.com/v1/products/125088095/detail.json",
+        "https://api.gilt.com/v1/products/125088099/detail.json",
+        "https://api.gilt.com/v1/products/65864195/detail.json",
+        "https://api.gilt.com/v1/products/82360813/detail.json",
+        "https://api.gilt.com/v1/products/124206641/detail.json",
+        "https://api.gilt.com/v1/products/125088108/detail.json",
+        "https://api.gilt.com/v1/products/125088046/detail.json",
+        "https://api.gilt.com/v1/products/105599455/detail.json",
+        "https://api.gilt.com/v1/products/102483128/detail.json",
+        "https://api.gilt.com/v1/products/135440479/detail.json",
+        "https://api.gilt.com/v1/products/21424618/detail.json",
+        "https://api.gilt.com/v1/products/17246313/detail.json",
+        "https://api.gilt.com/v1/products/131642224/detail.json",
+        "https://api.gilt.com/v1/products/102483137/detail.json",
+        "https://api.gilt.com/v1/products/89849463/detail.json",
+        "https://api.gilt.com/v1/products/89849456/detail.json",
+        "https://api.gilt.com/v1/products/39087698/detail.json",
+        "https://api.gilt.com/v1/products/76964793/detail.json",
+        "https://api.gilt.com/v1/products/81624239/detail.json",
+        "https://api.gilt.com/v1/products/131682633/detail.json",
+        "https://api.gilt.com/v1/products/131642330/detail.json",
+        "https://api.gilt.com/v1/products/16545938/detail.json",
+        "https://api.gilt.com/v1/products/131682672/detail.json",
+        "https://api.gilt.com/v1/products/131682726/detail.json",
+        "https://api.gilt.com/v1/products/98689004/detail.json",
+        "https://api.gilt.com/v1/products/86519860/detail.json",
+        "https://api.gilt.com/v1/products/132956483/detail.json",
+        "https://api.gilt.com/v1/products/126734726/detail.json",
+        "https://api.gilt.com/v1/products/18456826/detail.json",
+        "https://api.gilt.com/v1/products/93668015/detail.json",
+        "https://api.gilt.com/v1/products/76964764/detail.json",
+        "https://api.gilt.com/v1/products/129703296/detail.json",
+        "https://api.gilt.com/v1/products/89842800/detail.json",
+        "https://api.gilt.com/v1/products/82211213/detail.json",
+        "https://api.gilt.com/v1/products/91420191/detail.json",
+        "https://api.gilt.com/v1/products/41126753/detail.json",
+        "https://api.gilt.com/v1/products/90283407/detail.json",
+        "https://api.gilt.com/v1/products/91420127/detail.json",
+        "https://api.gilt.com/v1/products/86519845/detail.json",
+        "https://api.gilt.com/v1/products/125088105/detail.json",
+        "https://api.gilt.com/v1/products/125088042/detail.json",
+        "https://api.gilt.com/v1/products/93658959/detail.json",
+        "https://api.gilt.com/v1/products/93887882/detail.json",
+        "https://api.gilt.com/v1/products/73570164/detail.json",
+        "https://api.gilt.com/v1/products/89849439/detail.json",
+        "https://api.gilt.com/v1/products/124085893/detail.json",
+        "https://api.gilt.com/v1/products/124085956/detail.json",
+        "https://api.gilt.com/v1/products/125837198/detail.json",
+        "https://api.gilt.com/v1/products/100539053/detail.json",
+        "https://api.gilt.com/v1/products/131218239/detail.json",
+        "https://api.gilt.com/v1/products/125088039/detail.json",
+        "https://api.gilt.com/v1/products/82125586/detail.json",
+        "https://api.gilt.com/v1/products/125088084/detail.json",
+        "https://api.gilt.com/v1/products/125837243/detail.json",
+        "https://api.gilt.com/v1/products/131642137/detail.json",
+        "https://api.gilt.com/v1/products/131642516/detail.json",
+        "https://api.gilt.com/v1/products/131642153/detail.json",
+        "https://api.gilt.com/v1/products/131642358/detail.json",
+        "https://api.gilt.com/v1/products/131642502/detail.json",
+        "https://api.gilt.com/v1/products/131223024/detail.json",
+        "https://api.gilt.com/v1/products/86513920/detail.json",
+        "https://api.gilt.com/v1/products/131222810/detail.json",
+        "https://api.gilt.com/v1/products/131222969/detail.json",
+        "https://api.gilt.com/v1/products/131223002/detail.json",
+        "https://api.gilt.com/v1/products/131222983/detail.json",
+        "https://api.gilt.com/v1/products/131222778/detail.json",
+        "https://api.gilt.com/v1/products/82125598/detail.json",
+        "https://api.gilt.com/v1/products/124086547/detail.json",
+        "https://api.gilt.com/v1/products/82125583/detail.json",
+        "https://api.gilt.com/v1/products/86519894/detail.json",
+        "https://api.gilt.com/v1/products/82125595/detail.json",
+        "https://api.gilt.com/v1/products/131682772/detail.json",
+        "https://api.gilt.com/v1/products/131682843/detail.json",
+        "https://api.gilt.com/v1/products/89844472/detail.json",
+        "https://api.gilt.com/v1/products/56825547/detail.json",
+        "https://api.gilt.com/v1/products/131682760/detail.json",
+        "https://api.gilt.com/v1/products/131682794/detail.json",
+        "https://api.gilt.com/v1/products/82693531/detail.json",
+        "https://api.gilt.com/v1/products/61511839/detail.json",
+        "https://api.gilt.com/v1/products/131682765/detail.json",
+        "https://api.gilt.com/v1/products/124967451/detail.json",
+        "https://api.gilt.com/v1/products/131642279/detail.json",
+        "https://api.gilt.com/v1/products/131218231/detail.json",
+        "https://api.gilt.com/v1/products/131682826/detail.json",
+        "https://api.gilt.com/v1/products/124206536/detail.json"
+      ]
+    },
+    {
+      "name": "Last Chance: Winter Apparel Up to 80% Off",
+      "sale": "https://api.gilt.com/v1/sales/women/fall-clearance-bundl/detail.json",
+      "sale_key": "fall-clearance-bundl",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/fall-clearance-bundl?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248813/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139249959/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248805/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248754/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3925/139250137/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248817/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T05:00:00Z",
+      "description": "There’s still time to pick up stylish wintertime staples before spring hits — and the prices on these cold-weather items in this generous selection have been dramatically reduced. Today’s sale features essentials like belted peacoats and elegant wool numbers, along with cozy separates so chic they'll have you wishing for a few more months of winter.\r\n\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/93603981/detail.json",
+        "https://api.gilt.com/v1/products/74107140/detail.json",
+        "https://api.gilt.com/v1/products/100967610/detail.json",
+        "https://api.gilt.com/v1/products/67639806/detail.json",
+        "https://api.gilt.com/v1/products/100624205/detail.json",
+        "https://api.gilt.com/v1/products/90613628/detail.json",
+        "https://api.gilt.com/v1/products/101095100/detail.json",
+        "https://api.gilt.com/v1/products/130079854/detail.json",
+        "https://api.gilt.com/v1/products/74107133/detail.json",
+        "https://api.gilt.com/v1/products/100179588/detail.json",
+        "https://api.gilt.com/v1/products/101095131/detail.json",
+        "https://api.gilt.com/v1/products/70926044/detail.json",
+        "https://api.gilt.com/v1/products/102492966/detail.json",
+        "https://api.gilt.com/v1/products/122745976/detail.json",
+        "https://api.gilt.com/v1/products/74107148/detail.json",
+        "https://api.gilt.com/v1/products/100179609/detail.json",
+        "https://api.gilt.com/v1/products/78329470/detail.json",
+        "https://api.gilt.com/v1/products/74107156/detail.json",
+        "https://api.gilt.com/v1/products/101095105/detail.json",
+        "https://api.gilt.com/v1/products/120124648/detail.json",
+        "https://api.gilt.com/v1/products/67923661/detail.json",
+        "https://api.gilt.com/v1/products/100953291/detail.json",
+        "https://api.gilt.com/v1/products/102620198/detail.json",
+        "https://api.gilt.com/v1/products/128579384/detail.json",
+        "https://api.gilt.com/v1/products/74107125/detail.json",
+        "https://api.gilt.com/v1/products/94486205/detail.json",
+        "https://api.gilt.com/v1/products/121405344/detail.json",
+        "https://api.gilt.com/v1/products/86648692/detail.json",
+        "https://api.gilt.com/v1/products/89145098/detail.json",
+        "https://api.gilt.com/v1/products/86883931/detail.json",
+        "https://api.gilt.com/v1/products/67923584/detail.json",
+        "https://api.gilt.com/v1/products/69220475/detail.json",
+        "https://api.gilt.com/v1/products/90613581/detail.json",
+        "https://api.gilt.com/v1/products/70926051/detail.json",
+        "https://api.gilt.com/v1/products/70926055/detail.json",
+        "https://api.gilt.com/v1/products/86648700/detail.json",
+        "https://api.gilt.com/v1/products/127022725/detail.json",
+        "https://api.gilt.com/v1/products/125718077/detail.json",
+        "https://api.gilt.com/v1/products/135178904/detail.json",
+        "https://api.gilt.com/v1/products/134250386/detail.json",
+        "https://api.gilt.com/v1/products/122745910/detail.json",
+        "https://api.gilt.com/v1/products/90613611/detail.json",
+        "https://api.gilt.com/v1/products/127022721/detail.json",
+        "https://api.gilt.com/v1/products/130116226/detail.json",
+        "https://api.gilt.com/v1/products/122745929/detail.json",
+        "https://api.gilt.com/v1/products/127023530/detail.json",
+        "https://api.gilt.com/v1/products/122745889/detail.json",
+        "https://api.gilt.com/v1/products/125718079/detail.json",
+        "https://api.gilt.com/v1/products/105497089/detail.json",
+        "https://api.gilt.com/v1/products/135178953/detail.json",
+        "https://api.gilt.com/v1/products/102825791/detail.json",
+        "https://api.gilt.com/v1/products/67640102/detail.json",
+        "https://api.gilt.com/v1/products/74107184/detail.json",
+        "https://api.gilt.com/v1/products/87564511/detail.json",
+        "https://api.gilt.com/v1/products/120124826/detail.json",
+        "https://api.gilt.com/v1/products/72029783/detail.json",
+        "https://api.gilt.com/v1/products/124405720/detail.json",
+        "https://api.gilt.com/v1/products/120124611/detail.json",
+        "https://api.gilt.com/v1/products/122745957/detail.json",
+        "https://api.gilt.com/v1/products/69220465/detail.json",
+        "https://api.gilt.com/v1/products/120124641/detail.json",
+        "https://api.gilt.com/v1/products/125718056/detail.json",
+        "https://api.gilt.com/v1/products/86883929/detail.json",
+        "https://api.gilt.com/v1/products/105497130/detail.json",
+        "https://api.gilt.com/v1/products/124405572/detail.json",
+        "https://api.gilt.com/v1/products/122021194/detail.json",
+        "https://api.gilt.com/v1/products/101122399/detail.json",
+        "https://api.gilt.com/v1/products/100937030/detail.json",
+        "https://api.gilt.com/v1/products/70926035/detail.json",
+        "https://api.gilt.com/v1/products/105497104/detail.json",
+        "https://api.gilt.com/v1/products/122745875/detail.json",
+        "https://api.gilt.com/v1/products/124071935/detail.json",
+        "https://api.gilt.com/v1/products/71812309/detail.json",
+        "https://api.gilt.com/v1/products/99796115/detail.json",
+        "https://api.gilt.com/v1/products/101095143/detail.json",
+        "https://api.gilt.com/v1/products/100179602/detail.json",
+        "https://api.gilt.com/v1/products/86648668/detail.json",
+        "https://api.gilt.com/v1/products/122745881/detail.json",
+        "https://api.gilt.com/v1/products/99796107/detail.json",
+        "https://api.gilt.com/v1/products/73055312/detail.json",
+        "https://api.gilt.com/v1/products/37729684/detail.json",
+        "https://api.gilt.com/v1/products/121405434/detail.json",
+        "https://api.gilt.com/v1/products/121405446/detail.json",
+        "https://api.gilt.com/v1/products/67923643/detail.json",
+        "https://api.gilt.com/v1/products/69220416/detail.json",
+        "https://api.gilt.com/v1/products/100937075/detail.json",
+        "https://api.gilt.com/v1/products/70926015/detail.json",
+        "https://api.gilt.com/v1/products/67923575/detail.json",
+        "https://api.gilt.com/v1/products/93355356/detail.json",
+        "https://api.gilt.com/v1/products/120124768/detail.json",
+        "https://api.gilt.com/v1/products/130079799/detail.json",
+        "https://api.gilt.com/v1/products/122021274/detail.json",
+        "https://api.gilt.com/v1/products/70926038/detail.json",
+        "https://api.gilt.com/v1/products/71812288/detail.json",
+        "https://api.gilt.com/v1/products/130816974/detail.json",
+        "https://api.gilt.com/v1/products/120172537/detail.json",
+        "https://api.gilt.com/v1/products/37729624/detail.json",
+        "https://api.gilt.com/v1/products/129644125/detail.json",
+        "https://api.gilt.com/v1/products/127023558/detail.json",
+        "https://api.gilt.com/v1/products/70925997/detail.json",
+        "https://api.gilt.com/v1/products/93373963/detail.json",
+        "https://api.gilt.com/v1/products/74107199/detail.json",
+        "https://api.gilt.com/v1/products/80857414/detail.json",
+        "https://api.gilt.com/v1/products/130116214/detail.json",
+        "https://api.gilt.com/v1/products/81082389/detail.json",
+        "https://api.gilt.com/v1/products/123889305/detail.json",
+        "https://api.gilt.com/v1/products/129644099/detail.json",
+        "https://api.gilt.com/v1/products/100967628/detail.json",
+        "https://api.gilt.com/v1/products/121560128/detail.json",
+        "https://api.gilt.com/v1/products/89269037/detail.json",
+        "https://api.gilt.com/v1/products/69220437/detail.json",
+        "https://api.gilt.com/v1/products/69220470/detail.json",
+        "https://api.gilt.com/v1/products/69220442/detail.json",
+        "https://api.gilt.com/v1/products/130079824/detail.json",
+        "https://api.gilt.com/v1/products/122384087/detail.json",
+        "https://api.gilt.com/v1/products/127022748/detail.json",
+        "https://api.gilt.com/v1/products/123156488/detail.json",
+        "https://api.gilt.com/v1/products/122384135/detail.json",
+        "https://api.gilt.com/v1/products/124405595/detail.json",
+        "https://api.gilt.com/v1/products/122384076/detail.json",
+        "https://api.gilt.com/v1/products/100937084/detail.json",
+        "https://api.gilt.com/v1/products/94485402/detail.json",
+        "https://api.gilt.com/v1/products/100179561/detail.json",
+        "https://api.gilt.com/v1/products/135282472/detail.json",
+        "https://api.gilt.com/v1/products/102825818/detail.json",
+        "https://api.gilt.com/v1/products/100953307/detail.json",
+        "https://api.gilt.com/v1/products/121405354/detail.json",
+        "https://api.gilt.com/v1/products/93373942/detail.json",
+        "https://api.gilt.com/v1/products/122384059/detail.json",
+        "https://api.gilt.com/v1/products/124405537/detail.json",
+        "https://api.gilt.com/v1/products/123889294/detail.json",
+        "https://api.gilt.com/v1/products/93374001/detail.json",
+        "https://api.gilt.com/v1/products/93373972/detail.json",
+        "https://api.gilt.com/v1/products/121405454/detail.json",
+        "https://api.gilt.com/v1/products/123889206/detail.json",
+        "https://api.gilt.com/v1/products/122384249/detail.json",
+        "https://api.gilt.com/v1/products/67923572/detail.json",
+        "https://api.gilt.com/v1/products/125000465/detail.json",
+        "https://api.gilt.com/v1/products/83808803/detail.json",
+        "https://api.gilt.com/v1/products/86648697/detail.json",
+        "https://api.gilt.com/v1/products/122021319/detail.json",
+        "https://api.gilt.com/v1/products/67640071/detail.json",
+        "https://api.gilt.com/v1/products/128289094/detail.json",
+        "https://api.gilt.com/v1/products/128289099/detail.json",
+        "https://api.gilt.com/v1/products/122384180/detail.json",
+        "https://api.gilt.com/v1/products/65480334/detail.json",
+        "https://api.gilt.com/v1/products/127023431/detail.json",
+        "https://api.gilt.com/v1/products/122021279/detail.json",
+        "https://api.gilt.com/v1/products/122021138/detail.json",
+        "https://api.gilt.com/v1/products/81082385/detail.json",
+        "https://api.gilt.com/v1/products/88514099/detail.json",
+        "https://api.gilt.com/v1/products/88514356/detail.json",
+        "https://api.gilt.com/v1/products/88514206/detail.json",
+        "https://api.gilt.com/v1/products/124405673/detail.json",
+        "https://api.gilt.com/v1/products/122021310/detail.json",
+        "https://api.gilt.com/v1/products/94485370/detail.json",
+        "https://api.gilt.com/v1/products/122384224/detail.json",
+        "https://api.gilt.com/v1/products/123669970/detail.json",
+        "https://api.gilt.com/v1/products/123670177/detail.json",
+        "https://api.gilt.com/v1/products/70926025/detail.json",
+        "https://api.gilt.com/v1/products/122384009/detail.json",
+        "https://api.gilt.com/v1/products/78226050/detail.json",
+        "https://api.gilt.com/v1/products/122384054/detail.json",
+        "https://api.gilt.com/v1/products/124089468/detail.json",
+        "https://api.gilt.com/v1/products/120124634/detail.json",
+        "https://api.gilt.com/v1/products/121405414/detail.json",
+        "https://api.gilt.com/v1/products/125718015/detail.json",
+        "https://api.gilt.com/v1/products/120124760/detail.json",
+        "https://api.gilt.com/v1/products/101860579/detail.json",
+        "https://api.gilt.com/v1/products/121405426/detail.json",
+        "https://api.gilt.com/v1/products/93355321/detail.json",
+        "https://api.gilt.com/v1/products/121405469/detail.json",
+        "https://api.gilt.com/v1/products/124071813/detail.json",
+        "https://api.gilt.com/v1/products/37729672/detail.json",
+        "https://api.gilt.com/v1/products/123889262/detail.json",
+        "https://api.gilt.com/v1/products/101819469/detail.json",
+        "https://api.gilt.com/v1/products/90613624/detail.json",
+        "https://api.gilt.com/v1/products/100950990/detail.json",
+        "https://api.gilt.com/v1/products/86977577/detail.json",
+        "https://api.gilt.com/v1/products/73055342/detail.json",
+        "https://api.gilt.com/v1/products/71812324/detail.json",
+        "https://api.gilt.com/v1/products/90613564/detail.json",
+        "https://api.gilt.com/v1/products/129644112/detail.json",
+        "https://api.gilt.com/v1/products/123889255/detail.json",
+        "https://api.gilt.com/v1/products/69191475/detail.json",
+        "https://api.gilt.com/v1/products/101860604/detail.json",
+        "https://api.gilt.com/v1/products/56790479/detail.json",
+        "https://api.gilt.com/v1/products/123889334/detail.json",
+        "https://api.gilt.com/v1/products/93821974/detail.json",
+        "https://api.gilt.com/v1/products/93821988/detail.json",
+        "https://api.gilt.com/v1/products/101819623/detail.json",
+        "https://api.gilt.com/v1/products/123889282/detail.json",
+        "https://api.gilt.com/v1/products/100179597/detail.json",
+        "https://api.gilt.com/v1/products/99796097/detail.json",
+        "https://api.gilt.com/v1/products/88590494/detail.json",
+        "https://api.gilt.com/v1/products/91690964/detail.json",
+        "https://api.gilt.com/v1/products/112414851/detail.json",
+        "https://api.gilt.com/v1/products/99794773/detail.json",
+        "https://api.gilt.com/v1/products/69220372/detail.json",
+        "https://api.gilt.com/v1/products/69220421/detail.json",
+        "https://api.gilt.com/v1/products/70925970/detail.json",
+        "https://api.gilt.com/v1/products/99796172/detail.json",
+        "https://api.gilt.com/v1/products/88514005/detail.json",
+        "https://api.gilt.com/v1/products/67923673/detail.json",
+        "https://api.gilt.com/v1/products/122383970/detail.json",
+        "https://api.gilt.com/v1/products/88513857/detail.json",
+        "https://api.gilt.com/v1/products/88513862/detail.json",
+        "https://api.gilt.com/v1/products/88513422/detail.json",
+        "https://api.gilt.com/v1/products/88513144/detail.json",
+        "https://api.gilt.com/v1/products/122383998/detail.json",
+        "https://api.gilt.com/v1/products/122384065/detail.json",
+        "https://api.gilt.com/v1/products/128579394/detail.json",
+        "https://api.gilt.com/v1/products/122384202/detail.json",
+        "https://api.gilt.com/v1/products/122384213/detail.json",
+        "https://api.gilt.com/v1/products/92231231/detail.json",
+        "https://api.gilt.com/v1/products/105477858/detail.json",
+        "https://api.gilt.com/v1/products/65480329/detail.json",
+        "https://api.gilt.com/v1/products/90906304/detail.json",
+        "https://api.gilt.com/v1/products/88513919/detail.json",
+        "https://api.gilt.com/v1/products/71066201/detail.json",
+        "https://api.gilt.com/v1/products/88514087/detail.json",
+        "https://api.gilt.com/v1/products/88513847/detail.json",
+        "https://api.gilt.com/v1/products/88513879/detail.json",
+        "https://api.gilt.com/v1/products/134367188/detail.json",
+        "https://api.gilt.com/v1/products/9633504/detail.json",
+        "https://api.gilt.com/v1/products/90906310/detail.json",
+        "https://api.gilt.com/v1/products/120124743/detail.json",
+        "https://api.gilt.com/v1/products/132442876/detail.json",
+        "https://api.gilt.com/v1/products/129643948/detail.json",
+        "https://api.gilt.com/v1/products/56051835/detail.json",
+        "https://api.gilt.com/v1/products/78754851/detail.json",
+        "https://api.gilt.com/v1/products/88513852/detail.json"
+      ]
+    },
+    {
+      "name": "TRIA Beauty: Laser Hair Removal & Acne Devices",
+      "sale": "https://api.gilt.com/v1/sales/women/tria-beauty-lase-755/detail.json",
+      "sale_key": "tria-beauty-lase-755",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/tria-beauty-lase-755?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3758/137588345/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139003112/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3758/137588336/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3758/137588292/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3758/137588294/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3758/137588347/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "When flawless, smooth skin is a necessity, our beauty buyers turn to the skin-care gurus at TRIA. Some of the brand's best products are on offer in this sale: The TRIA Hair Removal Laser, an FDA-cleared, at-home laser, gives you the same results you'd get with in-office treatments. The TRIA Blue Light is the ultimate acne treatment, guaranteed to give you clearer, smoother, blemish-free skin by reducing acne-causing bacteria at their source — so go on, get your glow on!",
+      "products": [
+        "https://api.gilt.com/v1/products/126800694/detail.json",
+        "https://api.gilt.com/v1/products/126800702/detail.json",
+        "https://api.gilt.com/v1/products/126800698/detail.json"
+      ]
+    },
+    {
+      "name": "Zoa",
+      "sale": "https://api.gilt.com/v1/sales/women/zoa-760/detail.json",
+      "sale_key": "zoa-760",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/zoa-760?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139009962/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000095/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000161/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000118/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139001482/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000171/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T05:00:00Z",
+      "description": "Cut loose in Zoa’s voluminous yet body-conscious looks. Expect to find on-trend sequined sweaters, easy sweater dresses, jersey leggings, and playful jumpsuits — all the oh-so-comfortable pieces that put a twist on the basics.",
+      "products": [
+        "https://api.gilt.com/v1/products/137563252/detail.json",
+        "https://api.gilt.com/v1/products/137563280/detail.json",
+        "https://api.gilt.com/v1/products/137563274/detail.json",
+        "https://api.gilt.com/v1/products/137563278/detail.json",
+        "https://api.gilt.com/v1/products/137563336/detail.json",
+        "https://api.gilt.com/v1/products/137563256/detail.json",
+        "https://api.gilt.com/v1/products/137563290/detail.json",
+        "https://api.gilt.com/v1/products/137563329/detail.json",
+        "https://api.gilt.com/v1/products/137563341/detail.json",
+        "https://api.gilt.com/v1/products/137563266/detail.json",
+        "https://api.gilt.com/v1/products/137563326/detail.json",
+        "https://api.gilt.com/v1/products/137563338/detail.json",
+        "https://api.gilt.com/v1/products/137563349/detail.json",
+        "https://api.gilt.com/v1/products/137563300/detail.json",
+        "https://api.gilt.com/v1/products/137563287/detail.json",
+        "https://api.gilt.com/v1/products/137563309/detail.json",
+        "https://api.gilt.com/v1/products/137563254/detail.json",
+        "https://api.gilt.com/v1/products/137563347/detail.json",
+        "https://api.gilt.com/v1/products/137563262/detail.json",
+        "https://api.gilt.com/v1/products/137563285/detail.json",
+        "https://api.gilt.com/v1/products/137563321/detail.json",
+        "https://api.gilt.com/v1/products/137563245/detail.json",
+        "https://api.gilt.com/v1/products/137563272/detail.json",
+        "https://api.gilt.com/v1/products/137563302/detail.json",
+        "https://api.gilt.com/v1/products/137563307/detail.json",
+        "https://api.gilt.com/v1/products/137563354/detail.json",
+        "https://api.gilt.com/v1/products/137563331/detail.json",
+        "https://api.gilt.com/v1/products/137563264/detail.json",
+        "https://api.gilt.com/v1/products/137563243/detail.json",
+        "https://api.gilt.com/v1/products/137563250/detail.json",
+        "https://api.gilt.com/v1/products/137563314/detail.json",
+        "https://api.gilt.com/v1/products/137563318/detail.json",
+        "https://api.gilt.com/v1/products/137563316/detail.json",
+        "https://api.gilt.com/v1/products/137563297/detail.json"
+      ]
+    },
+    {
+      "name": "Maternity Blowout: Up to 70% Off",
+      "sale": "https://api.gilt.com/v1/sales/women/maternity-blowou-020/detail.json",
+      "sale_key": "maternity-blowou-020",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/children/maternity-blowout?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3906/139060316/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139167202/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3906/139060307/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3906/139060255/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3906/139060258/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3906/139060318/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T05:00:00Z",
+      "description": ""
+    },
+    {
+      "name": "Handbags Under $175",
+      "sale": "https://api.gilt.com/v1/sales/women/handbags-under-199/detail.json",
+      "sale_key": "handbags-under-199",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/handbags-under-199?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139412028/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139412158/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139412020/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139411977/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139412753/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3941/139412030/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "Clutches, satchels, crossbodies, totes. . . Every fashionable woman knows the power of the perfect handbag — which is why we've rounded up this can't-miss selection of our favorite picks. Ladies, bags that are big on style needn't be big-time investments!",
+      "products": [
+        "https://api.gilt.com/v1/products/77761297/detail.json",
+        "https://api.gilt.com/v1/products/127371092/detail.json",
+        "https://api.gilt.com/v1/products/127371090/detail.json",
+        "https://api.gilt.com/v1/products/132966540/detail.json",
+        "https://api.gilt.com/v1/products/127371088/detail.json",
+        "https://api.gilt.com/v1/products/132966544/detail.json",
+        "https://api.gilt.com/v1/products/80743314/detail.json",
+        "https://api.gilt.com/v1/products/124659750/detail.json",
+        "https://api.gilt.com/v1/products/80743312/detail.json",
+        "https://api.gilt.com/v1/products/127371103/detail.json",
+        "https://api.gilt.com/v1/products/127371106/detail.json",
+        "https://api.gilt.com/v1/products/91865556/detail.json",
+        "https://api.gilt.com/v1/products/132966439/detail.json",
+        "https://api.gilt.com/v1/products/132966597/detail.json",
+        "https://api.gilt.com/v1/products/132966451/detail.json",
+        "https://api.gilt.com/v1/products/132966580/detail.json",
+        "https://api.gilt.com/v1/products/132966583/detail.json",
+        "https://api.gilt.com/v1/products/132966602/detail.json",
+        "https://api.gilt.com/v1/products/93248886/detail.json",
+        "https://api.gilt.com/v1/products/93248888/detail.json",
+        "https://api.gilt.com/v1/products/128831068/detail.json",
+        "https://api.gilt.com/v1/products/73049580/detail.json",
+        "https://api.gilt.com/v1/products/127371078/detail.json",
+        "https://api.gilt.com/v1/products/73049578/detail.json",
+        "https://api.gilt.com/v1/products/127985644/detail.json",
+        "https://api.gilt.com/v1/products/72046973/detail.json",
+        "https://api.gilt.com/v1/products/132966560/detail.json",
+        "https://api.gilt.com/v1/products/126986811/detail.json",
+        "https://api.gilt.com/v1/products/81380046/detail.json",
+        "https://api.gilt.com/v1/products/126986808/detail.json",
+        "https://api.gilt.com/v1/products/128831086/detail.json",
+        "https://api.gilt.com/v1/products/127939407/detail.json",
+        "https://api.gilt.com/v1/products/112382351/detail.json",
+        "https://api.gilt.com/v1/products/127371232/detail.json",
+        "https://api.gilt.com/v1/products/127371240/detail.json",
+        "https://api.gilt.com/v1/products/127371215/detail.json",
+        "https://api.gilt.com/v1/products/127371225/detail.json",
+        "https://api.gilt.com/v1/products/127371111/detail.json",
+        "https://api.gilt.com/v1/products/127371116/detail.json",
+        "https://api.gilt.com/v1/products/128831093/detail.json",
+        "https://api.gilt.com/v1/products/128831089/detail.json",
+        "https://api.gilt.com/v1/products/128831107/detail.json",
+        "https://api.gilt.com/v1/products/129667571/detail.json",
+        "https://api.gilt.com/v1/products/87393145/detail.json",
+        "https://api.gilt.com/v1/products/89538921/detail.json",
+        "https://api.gilt.com/v1/products/127988862/detail.json",
+        "https://api.gilt.com/v1/products/129865857/detail.json",
+        "https://api.gilt.com/v1/products/126986777/detail.json",
+        "https://api.gilt.com/v1/products/126986779/detail.json",
+        "https://api.gilt.com/v1/products/126986832/detail.json",
+        "https://api.gilt.com/v1/products/126986830/detail.json",
+        "https://api.gilt.com/v1/products/126986774/detail.json",
+        "https://api.gilt.com/v1/products/74545442/detail.json",
+        "https://api.gilt.com/v1/products/127984260/detail.json",
+        "https://api.gilt.com/v1/products/90402360/detail.json",
+        "https://api.gilt.com/v1/products/90402358/detail.json",
+        "https://api.gilt.com/v1/products/90402356/detail.json",
+        "https://api.gilt.com/v1/products/93600834/detail.json",
+        "https://api.gilt.com/v1/products/74310237/detail.json",
+        "https://api.gilt.com/v1/products/93600836/detail.json",
+        "https://api.gilt.com/v1/products/93600843/detail.json",
+        "https://api.gilt.com/v1/products/93600832/detail.json",
+        "https://api.gilt.com/v1/products/93600828/detail.json",
+        "https://api.gilt.com/v1/products/93602590/detail.json",
+        "https://api.gilt.com/v1/products/93602593/detail.json",
+        "https://api.gilt.com/v1/products/93602595/detail.json",
+        "https://api.gilt.com/v1/products/80743245/detail.json",
+        "https://api.gilt.com/v1/products/93600841/detail.json",
+        "https://api.gilt.com/v1/products/93600838/detail.json",
+        "https://api.gilt.com/v1/products/132966479/detail.json",
+        "https://api.gilt.com/v1/products/132966471/detail.json",
+        "https://api.gilt.com/v1/products/132966473/detail.json",
+        "https://api.gilt.com/v1/products/90984779/detail.json",
+        "https://api.gilt.com/v1/products/77761306/detail.json",
+        "https://api.gilt.com/v1/products/90984781/detail.json",
+        "https://api.gilt.com/v1/products/70113830/detail.json",
+        "https://api.gilt.com/v1/products/70113832/detail.json",
+        "https://api.gilt.com/v1/products/73049594/detail.json",
+        "https://api.gilt.com/v1/products/126986770/detail.json",
+        "https://api.gilt.com/v1/products/126986767/detail.json",
+        "https://api.gilt.com/v1/products/128831082/detail.json",
+        "https://api.gilt.com/v1/products/128831080/detail.json",
+        "https://api.gilt.com/v1/products/129696896/detail.json",
+        "https://api.gilt.com/v1/products/128831076/detail.json",
+        "https://api.gilt.com/v1/products/128831074/detail.json",
+        "https://api.gilt.com/v1/products/74545451/detail.json",
+        "https://api.gilt.com/v1/products/47272808/detail.json"
+      ]
+    },
+    {
+      "name": "Watches Under $100",
+      "sale": "https://api.gilt.com/v1/sales/women/watches-under-10-889/detail.json",
+      "sale_key": "watches-under-10-889",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/watches-under-10-889?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3926/139264838/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3945/139452175/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3926/139264829/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3926/139264779/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3926/139265055/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3926/139264840/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T17:00:00Z",
+      "description": "Who’s got time to waste money on watches? Certainly not our wallet-savvy buyers, who’ve rounded up an (almost) unbelievable selection of timepieces that cost $100 or less. From Android to Timex, you’ll find the perfect accessory for your wrist. And with price points so low, who will fault you for buying two?",
+      "products": [
+        "https://api.gilt.com/v1/products/138564179/detail.json",
+        "https://api.gilt.com/v1/products/138566081/detail.json",
+        "https://api.gilt.com/v1/products/131318212/detail.json",
+        "https://api.gilt.com/v1/products/13385545/detail.json",
+        "https://api.gilt.com/v1/products/138564171/detail.json",
+        "https://api.gilt.com/v1/products/138566051/detail.json",
+        "https://api.gilt.com/v1/products/131771554/detail.json",
+        "https://api.gilt.com/v1/products/99545778/detail.json",
+        "https://api.gilt.com/v1/products/138166115/detail.json",
+        "https://api.gilt.com/v1/products/70803142/detail.json",
+        "https://api.gilt.com/v1/products/138564160/detail.json",
+        "https://api.gilt.com/v1/products/124741713/detail.json",
+        "https://api.gilt.com/v1/products/61313689/detail.json",
+        "https://api.gilt.com/v1/products/138564167/detail.json",
+        "https://api.gilt.com/v1/products/138167995/detail.json",
+        "https://api.gilt.com/v1/products/138564206/detail.json",
+        "https://api.gilt.com/v1/products/138166122/detail.json",
+        "https://api.gilt.com/v1/products/138168006/detail.json",
+        "https://api.gilt.com/v1/products/138167977/detail.json",
+        "https://api.gilt.com/v1/products/18458755/detail.json",
+        "https://api.gilt.com/v1/products/138167990/detail.json",
+        "https://api.gilt.com/v1/products/121523818/detail.json",
+        "https://api.gilt.com/v1/products/18458761/detail.json",
+        "https://api.gilt.com/v1/products/134456994/detail.json",
+        "https://api.gilt.com/v1/products/123080796/detail.json",
+        "https://api.gilt.com/v1/products/134456861/detail.json",
+        "https://api.gilt.com/v1/products/83851168/detail.json",
+        "https://api.gilt.com/v1/products/101706471/detail.json",
+        "https://api.gilt.com/v1/products/83851150/detail.json",
+        "https://api.gilt.com/v1/products/138167987/detail.json",
+        "https://api.gilt.com/v1/products/138566075/detail.json",
+        "https://api.gilt.com/v1/products/138168002/detail.json",
+        "https://api.gilt.com/v1/products/138167998/detail.json",
+        "https://api.gilt.com/v1/products/138564151/detail.json",
+        "https://api.gilt.com/v1/products/138167980/detail.json",
+        "https://api.gilt.com/v1/products/128271385/detail.json",
+        "https://api.gilt.com/v1/products/138167973/detail.json",
+        "https://api.gilt.com/v1/products/83851177/detail.json",
+        "https://api.gilt.com/v1/products/138166125/detail.json",
+        "https://api.gilt.com/v1/products/98783759/detail.json",
+        "https://api.gilt.com/v1/products/138566084/detail.json",
+        "https://api.gilt.com/v1/products/83851174/detail.json",
+        "https://api.gilt.com/v1/products/138566066/detail.json",
+        "https://api.gilt.com/v1/products/138566078/detail.json",
+        "https://api.gilt.com/v1/products/83851159/detail.json",
+        "https://api.gilt.com/v1/products/138166118/detail.json",
+        "https://api.gilt.com/v1/products/13385546/detail.json",
+        "https://api.gilt.com/v1/products/138166109/detail.json",
+        "https://api.gilt.com/v1/products/98155866/detail.json",
+        "https://api.gilt.com/v1/products/138564083/detail.json",
+        "https://api.gilt.com/v1/products/138564137/detail.json",
+        "https://api.gilt.com/v1/products/138564213/detail.json",
+        "https://api.gilt.com/v1/products/138564175/detail.json",
+        "https://api.gilt.com/v1/products/138564201/detail.json",
+        "https://api.gilt.com/v1/products/138566054/detail.json",
+        "https://api.gilt.com/v1/products/138564222/detail.json",
+        "https://api.gilt.com/v1/products/138564210/detail.json",
+        "https://api.gilt.com/v1/products/138166106/detail.json",
+        "https://api.gilt.com/v1/products/131318046/detail.json",
+        "https://api.gilt.com/v1/products/131318216/detail.json",
+        "https://api.gilt.com/v1/products/70803145/detail.json",
+        "https://api.gilt.com/v1/products/138564113/detail.json",
+        "https://api.gilt.com/v1/products/134456673/detail.json",
+        "https://api.gilt.com/v1/products/118131760/detail.json",
+        "https://api.gilt.com/v1/products/134456818/detail.json",
+        "https://api.gilt.com/v1/products/138167983/detail.json",
+        "https://api.gilt.com/v1/products/70803155/detail.json",
+        "https://api.gilt.com/v1/products/81746873/detail.json",
+        "https://api.gilt.com/v1/products/134456640/detail.json",
+        "https://api.gilt.com/v1/products/70803152/detail.json",
+        "https://api.gilt.com/v1/products/99545745/detail.json",
+        "https://api.gilt.com/v1/products/134456742/detail.json",
+        "https://api.gilt.com/v1/products/131771540/detail.json",
+        "https://api.gilt.com/v1/products/138564193/detail.json",
+        "https://api.gilt.com/v1/products/133380847/detail.json",
+        "https://api.gilt.com/v1/products/138566072/detail.json",
+        "https://api.gilt.com/v1/products/138564093/detail.json",
+        "https://api.gilt.com/v1/products/134456637/detail.json",
+        "https://api.gilt.com/v1/products/51347981/detail.json",
+        "https://api.gilt.com/v1/products/101706516/detail.json",
+        "https://api.gilt.com/v1/products/41997681/detail.json",
+        "https://api.gilt.com/v1/products/61313683/detail.json",
+        "https://api.gilt.com/v1/products/132707713/detail.json",
+        "https://api.gilt.com/v1/products/18458762/detail.json",
+        "https://api.gilt.com/v1/products/138566069/detail.json",
+        "https://api.gilt.com/v1/products/138564122/detail.json",
+        "https://api.gilt.com/v1/products/138166112/detail.json",
+        "https://api.gilt.com/v1/products/138564182/detail.json",
+        "https://api.gilt.com/v1/products/138564056/detail.json",
+        "https://api.gilt.com/v1/products/138564075/detail.json",
+        "https://api.gilt.com/v1/products/138564189/detail.json",
+        "https://api.gilt.com/v1/products/138564129/detail.json",
+        "https://api.gilt.com/v1/products/138564142/detail.json",
+        "https://api.gilt.com/v1/products/138564164/detail.json",
+        "https://api.gilt.com/v1/products/138564107/detail.json",
+        "https://api.gilt.com/v1/products/138564148/detail.json",
+        "https://api.gilt.com/v1/products/134457001/detail.json",
+        "https://api.gilt.com/v1/products/138566057/detail.json",
+        "https://api.gilt.com/v1/products/138564185/detail.json",
+        "https://api.gilt.com/v1/products/138564198/detail.json",
+        "https://api.gilt.com/v1/products/138564089/detail.json",
+        "https://api.gilt.com/v1/products/138166103/detail.json",
+        "https://api.gilt.com/v1/products/138564216/detail.json",
+        "https://api.gilt.com/v1/products/138566063/detail.json",
+        "https://api.gilt.com/v1/products/138564219/detail.json",
+        "https://api.gilt.com/v1/products/138564072/detail.json",
+        "https://api.gilt.com/v1/products/138566060/detail.json",
+        "https://api.gilt.com/v1/products/138564126/detail.json",
+        "https://api.gilt.com/v1/products/138564061/detail.json",
+        "https://api.gilt.com/v1/products/70803137/detail.json",
+        "https://api.gilt.com/v1/products/138564046/detail.json",
+        "https://api.gilt.com/v1/products/138564051/detail.json",
+        "https://api.gilt.com/v1/products/105567005/detail.json",
+        "https://api.gilt.com/v1/products/138564065/detail.json",
+        "https://api.gilt.com/v1/products/134456985/detail.json",
+        "https://api.gilt.com/v1/products/118131773/detail.json",
+        "https://api.gilt.com/v1/products/121523906/detail.json",
+        "https://api.gilt.com/v1/products/105567009/detail.json",
+        "https://api.gilt.com/v1/products/93676315/detail.json",
+        "https://api.gilt.com/v1/products/131318263/detail.json",
+        "https://api.gilt.com/v1/products/121523842/detail.json",
+        "https://api.gilt.com/v1/products/133386004/detail.json",
+        "https://api.gilt.com/v1/products/91744485/detail.json",
+        "https://api.gilt.com/v1/products/90674133/detail.json",
+        "https://api.gilt.com/v1/products/101706406/detail.json",
+        "https://api.gilt.com/v1/products/71583650/detail.json",
+        "https://api.gilt.com/v1/products/131318121/detail.json",
+        "https://api.gilt.com/v1/products/132707585/detail.json",
+        "https://api.gilt.com/v1/products/121523991/detail.json",
+        "https://api.gilt.com/v1/products/61313686/detail.json",
+        "https://api.gilt.com/v1/products/101706519/detail.json",
+        "https://api.gilt.com/v1/products/24093498/detail.json",
+        "https://api.gilt.com/v1/products/123080802/detail.json",
+        "https://api.gilt.com/v1/products/131318246/detail.json",
+        "https://api.gilt.com/v1/products/135082310/detail.json",
+        "https://api.gilt.com/v1/products/134456856/detail.json",
+        "https://api.gilt.com/v1/products/131318174/detail.json",
+        "https://api.gilt.com/v1/products/88396344/detail.json",
+        "https://api.gilt.com/v1/products/136008741/detail.json",
+        "https://api.gilt.com/v1/products/134456988/detail.json",
+        "https://api.gilt.com/v1/products/134456991/detail.json",
+        "https://api.gilt.com/v1/products/101706409/detail.json",
+        "https://api.gilt.com/v1/products/131771576/detail.json",
+        "https://api.gilt.com/v1/products/132707582/detail.json",
+        "https://api.gilt.com/v1/products/105567013/detail.json",
+        "https://api.gilt.com/v1/products/132707602/detail.json",
+        "https://api.gilt.com/v1/products/132707751/detail.json",
+        "https://api.gilt.com/v1/products/134456876/detail.json",
+        "https://api.gilt.com/v1/products/136008821/detail.json",
+        "https://api.gilt.com/v1/products/20919232/detail.json",
+        "https://api.gilt.com/v1/products/133385989/detail.json",
+        "https://api.gilt.com/v1/products/134457609/detail.json"
+      ]
+    },
+    {
+      "name": "Luxe Leather Seating",
+      "sale": "https://api.gilt.com/v1/sales/women/recliners-624/detail.json",
+      "sale_key": "recliners-624",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/home/recliners?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139357247/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139356833/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139357187/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139356990/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139356992/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3935/139357271/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T05:00:00Z",
+      "description": "Leather’s a dream material when it comes to furniture — it’s durable, classic, stylish, and luxurious at once. Here, take your pick of classic loungers and high-back chairs (some with ottomans, so you can really kick back). With details like turned wood legs and nailhead trim, many of these seating options exude bookish, timeless style. If you're into something more modern, there are plenty of sleek, sculptural selections as well."
+    },
+    {
+      "name": "Gilt MAN Finds: Hollywood Icons by Sonic Editions",
+      "sale": "https://api.gilt.com/v1/sales/women/gilt-man-finds-h-361/detail.json",
+      "sale_key": "gilt-man-finds-h-361",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/men/gilt-man-finds-holly?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282187/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282114/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282179/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282137/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282139/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3928/139282189/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-26T05:00:00Z",
+      "description": ""
+    },
+    {
+      "name": "Blush Lingerie",
+      "sale": "https://api.gilt.com/v1/sales/women/blush-lingerie/detail.json",
+      "sale_key": "blush-lingerie",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/blush-lingerie?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000487/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000409/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000479/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000434/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139009045/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3900/139000489/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "Edgy meets elegant, and smoldering meets sweet, in this one-of-a-kind sale. Whether you’re a lingerie aficionado or just looking for a flirty addition to spice up your intimates drawer, don’t miss this collection from Canadian lingerie brand Blush. Today’s offerings include barely-there thongs, lacy bras, and more — each piece is so alluring that you may never want to get dressed. \r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/137597695/detail.json",
+        "https://api.gilt.com/v1/products/137597685/detail.json",
+        "https://api.gilt.com/v1/products/137597652/detail.json",
+        "https://api.gilt.com/v1/products/137597626/detail.json",
+        "https://api.gilt.com/v1/products/137597645/detail.json",
+        "https://api.gilt.com/v1/products/137597662/detail.json",
+        "https://api.gilt.com/v1/products/137597678/detail.json",
+        "https://api.gilt.com/v1/products/137597669/detail.json",
+        "https://api.gilt.com/v1/products/137597576/detail.json",
+        "https://api.gilt.com/v1/products/137597618/detail.json",
+        "https://api.gilt.com/v1/products/137597607/detail.json",
+        "https://api.gilt.com/v1/products/137597597/detail.json",
+        "https://api.gilt.com/v1/products/137597555/detail.json",
+        "https://api.gilt.com/v1/products/137597590/detail.json",
+        "https://api.gilt.com/v1/products/137597586/detail.json",
+        "https://api.gilt.com/v1/products/137597732/detail.json",
+        "https://api.gilt.com/v1/products/137597747/detail.json",
+        "https://api.gilt.com/v1/products/137597723/detail.json",
+        "https://api.gilt.com/v1/products/137597701/detail.json",
+        "https://api.gilt.com/v1/products/137597715/detail.json",
+        "https://api.gilt.com/v1/products/137597516/detail.json",
+        "https://api.gilt.com/v1/products/137597487/detail.json",
+        "https://api.gilt.com/v1/products/137597507/detail.json",
+        "https://api.gilt.com/v1/products/137597539/detail.json",
+        "https://api.gilt.com/v1/products/137597522/detail.json",
+        "https://api.gilt.com/v1/products/137597548/detail.json",
+        "https://api.gilt.com/v1/products/137597457/detail.json",
+        "https://api.gilt.com/v1/products/137597468/detail.json",
+        "https://api.gilt.com/v1/products/137597448/detail.json",
+        "https://api.gilt.com/v1/products/137597422/detail.json",
+        "https://api.gilt.com/v1/products/137597428/detail.json",
+        "https://api.gilt.com/v1/products/137597476/detail.json",
+        "https://api.gilt.com/v1/products/137597753/detail.json",
+        "https://api.gilt.com/v1/products/134404187/detail.json",
+        "https://api.gilt.com/v1/products/134404231/detail.json",
+        "https://api.gilt.com/v1/products/134404158/detail.json",
+        "https://api.gilt.com/v1/products/134404144/detail.json",
+        "https://api.gilt.com/v1/products/134404173/detail.json",
+        "https://api.gilt.com/v1/products/134409956/detail.json",
+        "https://api.gilt.com/v1/products/90705888/detail.json",
+        "https://api.gilt.com/v1/products/134404242/detail.json",
+        "https://api.gilt.com/v1/products/90705907/detail.json",
+        "https://api.gilt.com/v1/products/90705837/detail.json",
+        "https://api.gilt.com/v1/products/90705928/detail.json",
+        "https://api.gilt.com/v1/products/69681092/detail.json",
+        "https://api.gilt.com/v1/products/90705858/detail.json"
+      ]
+    },
+    {
+      "name": "Boot Rally: Up to 90% Off",
+      "sale": "https://api.gilt.com/v1/sales/women/boot-blowout-199/detail.json",
+      "sale_key": "boot-blowout-199",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/boot-blowout-199?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3936/139361427/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3943/139437571/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3936/139361338/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3936/139361013/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3936/139361077/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3936/139361431/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-24T17:00:00Z",
+      "ends": "2012-02-27T17:00:00Z",
+      "description": "Time for a style reboot? This array of lace-ups, pull-ons, peep-toes, and zip-backs will take your winter and spring looks to new heights. Go for daring thigh-highs that pair perfectly with leggings, classic platform booties to offset chunky knits, and perennially chic peep-toes to go with skinny jeans. The best news? Your favorite designers have never been this affordable.  \r\n\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/37600795/detail.json",
+        "https://api.gilt.com/v1/products/37727958/detail.json",
+        "https://api.gilt.com/v1/products/37728117/detail.json",
+        "https://api.gilt.com/v1/products/84690996/detail.json",
+        "https://api.gilt.com/v1/products/72993157/detail.json",
+        "https://api.gilt.com/v1/products/123546139/detail.json",
+        "https://api.gilt.com/v1/products/89902932/detail.json",
+        "https://api.gilt.com/v1/products/73160748/detail.json",
+        "https://api.gilt.com/v1/products/72993167/detail.json",
+        "https://api.gilt.com/v1/products/99834458/detail.json",
+        "https://api.gilt.com/v1/products/72993125/detail.json",
+        "https://api.gilt.com/v1/products/37728012/detail.json",
+        "https://api.gilt.com/v1/products/102173877/detail.json",
+        "https://api.gilt.com/v1/products/72993115/detail.json",
+        "https://api.gilt.com/v1/products/60957836/detail.json",
+        "https://api.gilt.com/v1/products/90055639/detail.json",
+        "https://api.gilt.com/v1/products/82955619/detail.json",
+        "https://api.gilt.com/v1/products/93301773/detail.json",
+        "https://api.gilt.com/v1/products/90065433/detail.json",
+        "https://api.gilt.com/v1/products/73758083/detail.json",
+        "https://api.gilt.com/v1/products/127312848/detail.json",
+        "https://api.gilt.com/v1/products/77995545/detail.json",
+        "https://api.gilt.com/v1/products/90055649/detail.json",
+        "https://api.gilt.com/v1/products/122812730/detail.json",
+        "https://api.gilt.com/v1/products/46868497/detail.json",
+        "https://api.gilt.com/v1/products/125798123/detail.json",
+        "https://api.gilt.com/v1/products/77994285/detail.json",
+        "https://api.gilt.com/v1/products/125798175/detail.json",
+        "https://api.gilt.com/v1/products/77995533/detail.json",
+        "https://api.gilt.com/v1/products/37589968/detail.json",
+        "https://api.gilt.com/v1/products/125798084/detail.json",
+        "https://api.gilt.com/v1/products/77994389/detail.json",
+        "https://api.gilt.com/v1/products/125798156/detail.json",
+        "https://api.gilt.com/v1/products/93301783/detail.json",
+        "https://api.gilt.com/v1/products/82607559/detail.json",
+        "https://api.gilt.com/v1/products/127312887/detail.json",
+        "https://api.gilt.com/v1/products/77995622/detail.json",
+        "https://api.gilt.com/v1/products/125798096/detail.json",
+        "https://api.gilt.com/v1/products/122812723/detail.json",
+        "https://api.gilt.com/v1/products/127312858/detail.json",
+        "https://api.gilt.com/v1/products/77994188/detail.json",
+        "https://api.gilt.com/v1/products/52336694/detail.json",
+        "https://api.gilt.com/v1/products/122812636/detail.json",
+        "https://api.gilt.com/v1/products/72914048/detail.json",
+        "https://api.gilt.com/v1/products/93667728/detail.json",
+        "https://api.gilt.com/v1/products/59960554/detail.json",
+        "https://api.gilt.com/v1/products/72993188/detail.json",
+        "https://api.gilt.com/v1/products/77994198/detail.json",
+        "https://api.gilt.com/v1/products/77995690/detail.json",
+        "https://api.gilt.com/v1/products/77995612/detail.json",
+        "https://api.gilt.com/v1/products/50362056/detail.json",
+        "https://api.gilt.com/v1/products/124694193/detail.json",
+        "https://api.gilt.com/v1/products/82450176/detail.json",
+        "https://api.gilt.com/v1/products/88167685/detail.json",
+        "https://api.gilt.com/v1/products/82955568/detail.json",
+        "https://api.gilt.com/v1/products/101908176/detail.json",
+        "https://api.gilt.com/v1/products/50362042/detail.json",
+        "https://api.gilt.com/v1/products/82955632/detail.json",
+        "https://api.gilt.com/v1/products/85230573/detail.json",
+        "https://api.gilt.com/v1/products/59960565/detail.json",
+        "https://api.gilt.com/v1/products/127074071/detail.json",
+        "https://api.gilt.com/v1/products/77983210/detail.json",
+        "https://api.gilt.com/v1/products/52336940/detail.json",
+        "https://api.gilt.com/v1/products/125798137/detail.json",
+        "https://api.gilt.com/v1/products/93667740/detail.json",
+        "https://api.gilt.com/v1/products/77994422/detail.json",
+        "https://api.gilt.com/v1/products/72993199/detail.json",
+        "https://api.gilt.com/v1/products/91071660/detail.json",
+        "https://api.gilt.com/v1/products/59960576/detail.json",
+        "https://api.gilt.com/v1/products/88584383/detail.json",
+        "https://api.gilt.com/v1/products/127982340/detail.json",
+        "https://api.gilt.com/v1/products/88167981/detail.json",
+        "https://api.gilt.com/v1/products/72993178/detail.json",
+        "https://api.gilt.com/v1/products/88167706/detail.json",
+        "https://api.gilt.com/v1/products/90066530/detail.json",
+        "https://api.gilt.com/v1/products/50362044/detail.json",
+        "https://api.gilt.com/v1/products/127312775/detail.json",
+        "https://api.gilt.com/v1/products/83002102/detail.json",
+        "https://api.gilt.com/v1/products/122001624/detail.json",
+        "https://api.gilt.com/v1/products/87039981/detail.json",
+        "https://api.gilt.com/v1/products/50362027/detail.json",
+        "https://api.gilt.com/v1/products/73758079/detail.json",
+        "https://api.gilt.com/v1/products/87039985/detail.json",
+        "https://api.gilt.com/v1/products/81756897/detail.json",
+        "https://api.gilt.com/v1/products/87039870/detail.json",
+        "https://api.gilt.com/v1/products/72993209/detail.json",
+        "https://api.gilt.com/v1/products/37591140/detail.json",
+        "https://api.gilt.com/v1/products/73758060/detail.json",
+        "https://api.gilt.com/v1/products/87040125/detail.json",
+        "https://api.gilt.com/v1/products/122812643/detail.json",
+        "https://api.gilt.com/v1/products/122001687/detail.json",
+        "https://api.gilt.com/v1/products/122812625/detail.json",
+        "https://api.gilt.com/v1/products/72993136/detail.json",
+        "https://api.gilt.com/v1/products/127074228/detail.json",
+        "https://api.gilt.com/v1/products/72993146/detail.json",
+        "https://api.gilt.com/v1/products/124694457/detail.json",
+        "https://api.gilt.com/v1/products/77995702/detail.json",
+        "https://api.gilt.com/v1/products/122001614/detail.json",
+        "https://api.gilt.com/v1/products/49379236/detail.json",
+        "https://api.gilt.com/v1/products/122001677/detail.json",
+        "https://api.gilt.com/v1/products/37585067/detail.json",
+        "https://api.gilt.com/v1/products/84448926/detail.json",
+        "https://api.gilt.com/v1/products/41422193/detail.json",
+        "https://api.gilt.com/v1/products/88584342/detail.json",
+        "https://api.gilt.com/v1/products/90065411/detail.json",
+        "https://api.gilt.com/v1/products/98284471/detail.json",
+        "https://api.gilt.com/v1/products/77994378/detail.json",
+        "https://api.gilt.com/v1/products/37728085/detail.json",
+        "https://api.gilt.com/v1/products/87040136/detail.json",
+        "https://api.gilt.com/v1/products/71692105/detail.json",
+        "https://api.gilt.com/v1/products/71692011/detail.json",
+        "https://api.gilt.com/v1/products/90907885/detail.json",
+        "https://api.gilt.com/v1/products/87039966/detail.json",
+        "https://api.gilt.com/v1/products/49379542/detail.json",
+        "https://api.gilt.com/v1/products/71692001/detail.json",
+        "https://api.gilt.com/v1/products/49379465/detail.json",
+        "https://api.gilt.com/v1/products/81757207/detail.json",
+        "https://api.gilt.com/v1/products/72914046/detail.json",
+        "https://api.gilt.com/v1/products/37819395/detail.json",
+        "https://api.gilt.com/v1/products/77665018/detail.json",
+        "https://api.gilt.com/v1/products/88167695/detail.json",
+        "https://api.gilt.com/v1/products/47271462/detail.json",
+        "https://api.gilt.com/v1/products/59960586/detail.json",
+        "https://api.gilt.com/v1/products/89957421/detail.json",
+        "https://api.gilt.com/v1/products/37819334/detail.json",
+        "https://api.gilt.com/v1/products/58796412/detail.json",
+        "https://api.gilt.com/v1/products/59960544/detail.json",
+        "https://api.gilt.com/v1/products/50362025/detail.json",
+        "https://api.gilt.com/v1/products/73243130/detail.json",
+        "https://api.gilt.com/v1/products/88367618/detail.json",
+        "https://api.gilt.com/v1/products/93534704/detail.json",
+        "https://api.gilt.com/v1/products/93534729/detail.json",
+        "https://api.gilt.com/v1/products/37585141/detail.json",
+        "https://api.gilt.com/v1/products/70801833/detail.json",
+        "https://api.gilt.com/v1/products/58347963/detail.json",
+        "https://api.gilt.com/v1/products/87039811/detail.json",
+        "https://api.gilt.com/v1/products/77994209/detail.json",
+        "https://api.gilt.com/v1/products/93534723/detail.json",
+        "https://api.gilt.com/v1/products/93534754/detail.json",
+        "https://api.gilt.com/v1/products/93733297/detail.json",
+        "https://api.gilt.com/v1/products/87040131/detail.json",
+        "https://api.gilt.com/v1/products/38346561/detail.json",
+        "https://api.gilt.com/v1/products/60690572/detail.json",
+        "https://api.gilt.com/v1/products/71692195/detail.json",
+        "https://api.gilt.com/v1/products/77994432/detail.json",
+        "https://api.gilt.com/v1/products/38521886/detail.json",
+        "https://api.gilt.com/v1/products/90055672/detail.json",
+        "https://api.gilt.com/v1/products/73758081/detail.json",
+        "https://api.gilt.com/v1/products/74146661/detail.json",
+        "https://api.gilt.com/v1/products/88168002/detail.json",
+        "https://api.gilt.com/v1/products/92564883/detail.json",
+        "https://api.gilt.com/v1/products/122001667/detail.json",
+        "https://api.gilt.com/v1/products/52546815/detail.json",
+        "https://api.gilt.com/v1/products/124694329/detail.json",
+        "https://api.gilt.com/v1/products/102173856/detail.json",
+        "https://api.gilt.com/v1/products/77994355/detail.json",
+        "https://api.gilt.com/v1/products/98134460/detail.json",
+        "https://api.gilt.com/v1/products/77983313/detail.json",
+        "https://api.gilt.com/v1/products/37589890/detail.json",
+        "https://api.gilt.com/v1/products/88824097/detail.json",
+        "https://api.gilt.com/v1/products/127074176/detail.json",
+        "https://api.gilt.com/v1/products/60690316/detail.json",
+        "https://api.gilt.com/v1/products/37728106/detail.json",
+        "https://api.gilt.com/v1/products/48763930/detail.json",
+        "https://api.gilt.com/v1/products/125798197/detail.json",
+        "https://api.gilt.com/v1/products/70516302/detail.json",
+        "https://api.gilt.com/v1/products/55960617/detail.json",
+        "https://api.gilt.com/v1/products/48395008/detail.json",
+        "https://api.gilt.com/v1/products/91071648/detail.json",
+        "https://api.gilt.com/v1/products/69098085/detail.json",
+        "https://api.gilt.com/v1/products/58347970/detail.json",
+        "https://api.gilt.com/v1/products/50362032/detail.json",
+        "https://api.gilt.com/v1/products/88167761/detail.json",
+        "https://api.gilt.com/v1/products/93831817/detail.json",
+        "https://api.gilt.com/v1/products/84089073/detail.json",
+        "https://api.gilt.com/v1/products/69098074/detail.json",
+        "https://api.gilt.com/v1/products/54025150/detail.json",
+        "https://api.gilt.com/v1/products/50362034/detail.json",
+        "https://api.gilt.com/v1/products/85937379/detail.json",
+        "https://api.gilt.com/v1/products/88167960/detail.json",
+        "https://api.gilt.com/v1/products/52336730/detail.json",
+        "https://api.gilt.com/v1/products/90055737/detail.json",
+        "https://api.gilt.com/v1/products/50362030/detail.json",
+        "https://api.gilt.com/v1/products/83002206/detail.json",
+        "https://api.gilt.com/v1/products/50831636/detail.json",
+        "https://api.gilt.com/v1/products/83645002/detail.json",
+        "https://api.gilt.com/v1/products/72743017/detail.json",
+        "https://api.gilt.com/v1/products/50362005/detail.json",
+        "https://api.gilt.com/v1/products/37810646/detail.json",
+        "https://api.gilt.com/v1/products/88167970/detail.json",
+        "https://api.gilt.com/v1/products/37580504/detail.json",
+        "https://api.gilt.com/v1/products/83644999/detail.json",
+        "https://api.gilt.com/v1/products/123528935/detail.json",
+        "https://api.gilt.com/v1/products/57450589/detail.json",
+        "https://api.gilt.com/v1/products/88584373/detail.json",
+        "https://api.gilt.com/v1/products/88167800/detail.json",
+        "https://api.gilt.com/v1/products/89957414/detail.json",
+        "https://api.gilt.com/v1/products/16875064/detail.json",
+        "https://api.gilt.com/v1/products/99639184/detail.json",
+        "https://api.gilt.com/v1/products/122001604/detail.json",
+        "https://api.gilt.com/v1/products/41422175/detail.json",
+        "https://api.gilt.com/v1/products/37918620/detail.json",
+        "https://api.gilt.com/v1/products/85937238/detail.json"
+      ]
+    },
+    {
+      "name": "Eileen Fisher",
+      "sale": "https://api.gilt.com/v1/sales/women/eileen-fisher-279/detail.json",
+      "sale_key": "eileen-fisher-279",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/eileen-fisher-279?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138630710/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3862/138629176/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138630679/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3862/138629981/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138630218/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138630713/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "For more than three decades, Eileen Fisher has reigned as the leader in everywoman style — her designs boast an elegant simplicity, and they look good on absolutely everyone. Don’t miss these layerable staples that are ideal for transitioning your look from winter to spring: V-neck box tops, cropped cardigans, chic pencil skirts, neutral shells, jewel-toned blouses, and more. \r\n\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/137331148/detail.json",
+        "https://api.gilt.com/v1/products/137330903/detail.json",
+        "https://api.gilt.com/v1/products/137330896/detail.json",
+        "https://api.gilt.com/v1/products/137331205/detail.json",
+        "https://api.gilt.com/v1/products/137330889/detail.json",
+        "https://api.gilt.com/v1/products/137331143/detail.json",
+        "https://api.gilt.com/v1/products/137331138/detail.json",
+        "https://api.gilt.com/v1/products/137331102/detail.json",
+        "https://api.gilt.com/v1/products/137331156/detail.json",
+        "https://api.gilt.com/v1/products/137330975/detail.json",
+        "https://api.gilt.com/v1/products/137331033/detail.json",
+        "https://api.gilt.com/v1/products/137331120/detail.json",
+        "https://api.gilt.com/v1/products/137330908/detail.json",
+        "https://api.gilt.com/v1/products/137331037/detail.json",
+        "https://api.gilt.com/v1/products/137330972/detail.json",
+        "https://api.gilt.com/v1/products/137331081/detail.json",
+        "https://api.gilt.com/v1/products/137331152/detail.json",
+        "https://api.gilt.com/v1/products/137331171/detail.json",
+        "https://api.gilt.com/v1/products/137331007/detail.json",
+        "https://api.gilt.com/v1/products/137330899/detail.json",
+        "https://api.gilt.com/v1/products/137331025/detail.json",
+        "https://api.gilt.com/v1/products/137331159/detail.json",
+        "https://api.gilt.com/v1/products/137330906/detail.json",
+        "https://api.gilt.com/v1/products/137330985/detail.json",
+        "https://api.gilt.com/v1/products/137331131/detail.json",
+        "https://api.gilt.com/v1/products/137330866/detail.json",
+        "https://api.gilt.com/v1/products/137331028/detail.json",
+        "https://api.gilt.com/v1/products/137331111/detail.json",
+        "https://api.gilt.com/v1/products/137331083/detail.json",
+        "https://api.gilt.com/v1/products/137331161/detail.json",
+        "https://api.gilt.com/v1/products/137331173/detail.json",
+        "https://api.gilt.com/v1/products/137330883/detail.json",
+        "https://api.gilt.com/v1/products/137331091/detail.json",
+        "https://api.gilt.com/v1/products/137331066/detail.json",
+        "https://api.gilt.com/v1/products/137331168/detail.json",
+        "https://api.gilt.com/v1/products/137330880/detail.json",
+        "https://api.gilt.com/v1/products/137331154/detail.json",
+        "https://api.gilt.com/v1/products/137331047/detail.json",
+        "https://api.gilt.com/v1/products/137331124/detail.json",
+        "https://api.gilt.com/v1/products/137330966/detail.json",
+        "https://api.gilt.com/v1/products/137331133/detail.json",
+        "https://api.gilt.com/v1/products/137330894/detail.json",
+        "https://api.gilt.com/v1/products/137330885/detail.json",
+        "https://api.gilt.com/v1/products/137331184/detail.json",
+        "https://api.gilt.com/v1/products/137331190/detail.json",
+        "https://api.gilt.com/v1/products/137331146/detail.json",
+        "https://api.gilt.com/v1/products/137330887/detail.json",
+        "https://api.gilt.com/v1/products/137331202/detail.json",
+        "https://api.gilt.com/v1/products/137331127/detail.json",
+        "https://api.gilt.com/v1/products/137330868/detail.json",
+        "https://api.gilt.com/v1/products/137331135/detail.json",
+        "https://api.gilt.com/v1/products/137331141/detail.json",
+        "https://api.gilt.com/v1/products/137330873/detail.json",
+        "https://api.gilt.com/v1/products/137331182/detail.json",
+        "https://api.gilt.com/v1/products/137331095/detail.json",
+        "https://api.gilt.com/v1/products/137330939/detail.json",
+        "https://api.gilt.com/v1/products/137331194/detail.json",
+        "https://api.gilt.com/v1/products/137330943/detail.json",
+        "https://api.gilt.com/v1/products/137331011/detail.json",
+        "https://api.gilt.com/v1/products/137331060/detail.json",
+        "https://api.gilt.com/v1/products/137330954/detail.json",
+        "https://api.gilt.com/v1/products/137331200/detail.json",
+        "https://api.gilt.com/v1/products/137330988/detail.json",
+        "https://api.gilt.com/v1/products/137331076/detail.json",
+        "https://api.gilt.com/v1/products/137331099/detail.json",
+        "https://api.gilt.com/v1/products/137331164/detail.json",
+        "https://api.gilt.com/v1/products/137331088/detail.json",
+        "https://api.gilt.com/v1/products/137330960/detail.json",
+        "https://api.gilt.com/v1/products/137330877/detail.json",
+        "https://api.gilt.com/v1/products/137331072/detail.json",
+        "https://api.gilt.com/v1/products/137331107/detail.json",
+        "https://api.gilt.com/v1/products/137331188/detail.json",
+        "https://api.gilt.com/v1/products/137331078/detail.json",
+        "https://api.gilt.com/v1/products/137330871/detail.json",
+        "https://api.gilt.com/v1/products/137330929/detail.json",
+        "https://api.gilt.com/v1/products/137331054/detail.json",
+        "https://api.gilt.com/v1/products/137331198/detail.json",
+        "https://api.gilt.com/v1/products/137330963/detail.json"
+      ]
+    },
+    {
+      "name": "George Stone Crab Claws",
+      "sale": "https://api.gilt.com/v1/sales/kids/george-stone-cra-303/detail.json",
+      "sale_key": "george-stone-cra-303",
+      "store": "kids",
+      "sale_url": "http://www.gilt.com/sale/home/george-stone-crab-cl?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3853/138535857/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3853/138532061/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3835/138352733/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3853/138532704/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3853/138532730/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3835/138352745/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "From the ocean to your doorstep in less than 24 hours, these fresh (never frozen!) meaty claws are guaranteed to arrive in one piece. George and his team fish off of the Florida coast everyday and sustainably catch 3,000 to 5,000 pounds of stone crabs."
+    },
+    {
+      "name": "See by Chloé",
+      "sale": "https://api.gilt.com/v1/sales/women/see-by-chloe-105/detail.json",
+      "sale_key": "see-by-chloe-105",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/see-by-chloe-105?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139346094/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138421279/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139346374/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139345354/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139345418/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3934/139346238/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "See by Chloé, the younger spin-off of iconic French label Chloé, was launched in 2001 and quickly amassed a loyal following of trendsetters, including Natalie Portman and Rachel Bilson. Today’s coveted crop includes an eclectic array of imaginative dresses, girly blouses, pretty cardigans, and plenty more.\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/89255546/detail.json",
+        "https://api.gilt.com/v1/products/89255478/detail.json",
+        "https://api.gilt.com/v1/products/89255486/detail.json",
+        "https://api.gilt.com/v1/products/89255640/detail.json",
+        "https://api.gilt.com/v1/products/89255405/detail.json",
+        "https://api.gilt.com/v1/products/89255819/detail.json",
+        "https://api.gilt.com/v1/products/89255754/detail.json",
+        "https://api.gilt.com/v1/products/89255452/detail.json",
+        "https://api.gilt.com/v1/products/89255444/detail.json",
+        "https://api.gilt.com/v1/products/89255717/detail.json",
+        "https://api.gilt.com/v1/products/89255627/detail.json",
+        "https://api.gilt.com/v1/products/89255558/detail.json",
+        "https://api.gilt.com/v1/products/89255814/detail.json",
+        "https://api.gilt.com/v1/products/89255604/detail.json",
+        "https://api.gilt.com/v1/products/89255619/detail.json",
+        "https://api.gilt.com/v1/products/89255600/detail.json",
+        "https://api.gilt.com/v1/products/89255633/detail.json",
+        "https://api.gilt.com/v1/products/89255767/detail.json",
+        "https://api.gilt.com/v1/products/89255525/detail.json",
+        "https://api.gilt.com/v1/products/89255807/detail.json",
+        "https://api.gilt.com/v1/products/89255533/detail.json",
+        "https://api.gilt.com/v1/products/89255833/detail.json",
+        "https://api.gilt.com/v1/products/89255459/detail.json",
+        "https://api.gilt.com/v1/products/89255518/detail.json",
+        "https://api.gilt.com/v1/products/89255492/detail.json",
+        "https://api.gilt.com/v1/products/89255412/detail.json",
+        "https://api.gilt.com/v1/products/89255687/detail.json",
+        "https://api.gilt.com/v1/products/89255841/detail.json",
+        "https://api.gilt.com/v1/products/89255680/detail.json",
+        "https://api.gilt.com/v1/products/89255659/detail.json",
+        "https://api.gilt.com/v1/products/89255612/detail.json",
+        "https://api.gilt.com/v1/products/89255721/detail.json",
+        "https://api.gilt.com/v1/products/89255789/detail.json",
+        "https://api.gilt.com/v1/products/89255497/detail.json",
+        "https://api.gilt.com/v1/products/89255772/detail.json",
+        "https://api.gilt.com/v1/products/89255654/detail.json",
+        "https://api.gilt.com/v1/products/89255471/detail.json",
+        "https://api.gilt.com/v1/products/89255647/detail.json",
+        "https://api.gilt.com/v1/products/47656687/detail.json",
+        "https://api.gilt.com/v1/products/89255431/detail.json",
+        "https://api.gilt.com/v1/products/89255728/detail.json",
+        "https://api.gilt.com/v1/products/89255538/detail.json",
+        "https://api.gilt.com/v1/products/89255427/detail.json",
+        "https://api.gilt.com/v1/products/89255694/detail.json",
+        "https://api.gilt.com/v1/products/89255549/detail.json",
+        "https://api.gilt.com/v1/products/89255777/detail.json",
+        "https://api.gilt.com/v1/products/89255708/detail.json",
+        "https://api.gilt.com/v1/products/89255421/detail.json",
+        "https://api.gilt.com/v1/products/89255667/detail.json",
+        "https://api.gilt.com/v1/products/89255511/detail.json"
+      ]
+    },
+    {
+      "name": "Ava & Aiden",
+      "sale": "https://api.gilt.com/v1/sales/women/ava-and-aiden-shoes/detail.json",
+      "sale_key": "ava-and-aiden-shoes",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/ava-and-aiden-shoes?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139164597/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3950/139509540/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139164584/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3929/139291149/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3918/139184026/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3916/139164600/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "We like to think of Ava & Aiden as Easy & Breezy — because looking stylish while wearing their shoes is a cinch. With warm weather on the horizon, it’s the perfect time to snap up a pair of their colorful and elegant styles, including cork-soled pumps, chunky espadrilles, as well as platform sandals and flats with a cute rope detailing. Simply dd a chic wrap dress, or jeans and a tee, or and you’ll be all set!\r\n\r\n",
+      "products": [
+        "https://api.gilt.com/v1/products/105497046/detail.json",
+        "https://api.gilt.com/v1/products/105497050/detail.json",
+        "https://api.gilt.com/v1/products/139297486/detail.json",
+        "https://api.gilt.com/v1/products/139298036/detail.json",
+        "https://api.gilt.com/v1/products/139298029/detail.json",
+        "https://api.gilt.com/v1/products/105497026/detail.json",
+        "https://api.gilt.com/v1/products/105497029/detail.json",
+        "https://api.gilt.com/v1/products/105497032/detail.json",
+        "https://api.gilt.com/v1/products/105497022/detail.json",
+        "https://api.gilt.com/v1/products/105497016/detail.json",
+        "https://api.gilt.com/v1/products/105497013/detail.json",
+        "https://api.gilt.com/v1/products/105497019/detail.json",
+        "https://api.gilt.com/v1/products/105497003/detail.json",
+        "https://api.gilt.com/v1/products/105497006/detail.json",
+        "https://api.gilt.com/v1/products/105497009/detail.json"
+      ]
+    },
+    {
+      "name": "Carlos Falchi",
+      "sale": "https://api.gilt.com/v1/sales/women/carlos-falchi-527/detail.json",
+      "sale_key": "carlos-falchi-527",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/carlos-falchi-527?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138246133/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138245577/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138246080/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138245612/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138245647/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3824/138246165/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-27T05:00:00Z",
+      "description": "You don't have to look far for a touch of the exotic — just see Carlos Falchi's <i>Sex and the City</i>-endorsed handbags, which are rendered in luxe python and microfiber zebra prints. These investment pieces strike a rare balance between downtown street cred and uptown luxury — and classic silhouettes keep them timeless, so you can be sure they'll never go out of style. ",
+      "products": [
+        "https://api.gilt.com/v1/products/126732104/detail.json",
+        "https://api.gilt.com/v1/products/126732114/detail.json",
+        "https://api.gilt.com/v1/products/126732123/detail.json",
+        "https://api.gilt.com/v1/products/98269503/detail.json",
+        "https://api.gilt.com/v1/products/126732112/detail.json",
+        "https://api.gilt.com/v1/products/126732121/detail.json",
+        "https://api.gilt.com/v1/products/126732110/detail.json",
+        "https://api.gilt.com/v1/products/126732085/detail.json",
+        "https://api.gilt.com/v1/products/126732089/detail.json",
+        "https://api.gilt.com/v1/products/126732092/detail.json",
+        "https://api.gilt.com/v1/products/126732095/detail.json",
+        "https://api.gilt.com/v1/products/126732117/detail.json",
+        "https://api.gilt.com/v1/products/126732133/detail.json",
+        "https://api.gilt.com/v1/products/126732107/detail.json",
+        "https://api.gilt.com/v1/products/126732099/detail.json",
+        "https://api.gilt.com/v1/products/126732102/detail.json",
+        "https://api.gilt.com/v1/products/126732131/detail.json",
+        "https://api.gilt.com/v1/products/98269495/detail.json",
+        "https://api.gilt.com/v1/products/98269497/detail.json",
+        "https://api.gilt.com/v1/products/126732072/detail.json",
+        "https://api.gilt.com/v1/products/98269490/detail.json",
+        "https://api.gilt.com/v1/products/98269506/detail.json",
+        "https://api.gilt.com/v1/products/126732076/detail.json",
+        "https://api.gilt.com/v1/products/126732066/detail.json",
+        "https://api.gilt.com/v1/products/132368074/detail.json",
+        "https://api.gilt.com/v1/products/126732160/detail.json",
+        "https://api.gilt.com/v1/products/126732163/detail.json",
+        "https://api.gilt.com/v1/products/126732151/detail.json",
+        "https://api.gilt.com/v1/products/126732154/detail.json",
+        "https://api.gilt.com/v1/products/126732166/detail.json",
+        "https://api.gilt.com/v1/products/126732061/detail.json",
+        "https://api.gilt.com/v1/products/98269395/detail.json",
+        "https://api.gilt.com/v1/products/89144352/detail.json",
+        "https://api.gilt.com/v1/products/89140937/detail.json",
+        "https://api.gilt.com/v1/products/126732082/detail.json",
+        "https://api.gilt.com/v1/products/126732078/detail.json",
+        "https://api.gilt.com/v1/products/89144408/detail.json",
+        "https://api.gilt.com/v1/products/89144411/detail.json",
+        "https://api.gilt.com/v1/products/89549486/detail.json",
+        "https://api.gilt.com/v1/products/89142053/detail.json",
+        "https://api.gilt.com/v1/products/98269408/detail.json",
+        "https://api.gilt.com/v1/products/98269415/detail.json",
+        "https://api.gilt.com/v1/products/98269417/detail.json",
+        "https://api.gilt.com/v1/products/89143170/detail.json",
+        "https://api.gilt.com/v1/products/98270101/detail.json",
+        "https://api.gilt.com/v1/products/89143165/detail.json",
+        "https://api.gilt.com/v1/products/89142030/detail.json",
+        "https://api.gilt.com/v1/products/89142028/detail.json",
+        "https://api.gilt.com/v1/products/89142026/detail.json",
+        "https://api.gilt.com/v1/products/72446006/detail.json",
+        "https://api.gilt.com/v1/products/76971396/detail.json",
+        "https://api.gilt.com/v1/products/89147262/detail.json",
+        "https://api.gilt.com/v1/products/89147264/detail.json",
+        "https://api.gilt.com/v1/products/98270096/detail.json",
+        "https://api.gilt.com/v1/products/98270094/detail.json",
+        "https://api.gilt.com/v1/products/98270877/detail.json",
+        "https://api.gilt.com/v1/products/90872706/detail.json",
+        "https://api.gilt.com/v1/products/90872734/detail.json",
+        "https://api.gilt.com/v1/products/90872713/detail.json",
+        "https://api.gilt.com/v1/products/90872732/detail.json",
+        "https://api.gilt.com/v1/products/90872725/detail.json",
+        "https://api.gilt.com/v1/products/90872710/detail.json",
+        "https://api.gilt.com/v1/products/83411044/detail.json",
+        "https://api.gilt.com/v1/products/98270875/detail.json",
+        "https://api.gilt.com/v1/products/90873909/detail.json",
+        "https://api.gilt.com/v1/products/90873924/detail.json",
+        "https://api.gilt.com/v1/products/90873922/detail.json",
+        "https://api.gilt.com/v1/products/98270797/detail.json",
+        "https://api.gilt.com/v1/products/98270799/detail.json"
+      ]
+    },
+    {
+      "name": "Gold Hawk",
+      "sale": "https://api.gilt.com/v1/sales/women/gold-hawk-676/detail.json",
+      "sale_key": "gold-hawk-676",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/gold-hawk-676?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138636436/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138631525/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138636335/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138631676/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138631678/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3863/138636441/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "Style icons, take notice: This romantic collection of dresses, blouses, cardigans, and more by Los Angeles-based designer Michele Dahan is replete with luxurious fabrics and feminine frills (think lace, crochet details, sequins, and more). Take it from fans like Gwyneth Paltrow — there's no easier way to get instant star style than to rock one of these looks.",
+      "products": [
+        "https://api.gilt.com/v1/products/124964000/detail.json",
+        "https://api.gilt.com/v1/products/124964068/detail.json",
+        "https://api.gilt.com/v1/products/124963926/detail.json",
+        "https://api.gilt.com/v1/products/124964071/detail.json",
+        "https://api.gilt.com/v1/products/124963996/detail.json",
+        "https://api.gilt.com/v1/products/124964008/detail.json",
+        "https://api.gilt.com/v1/products/124963977/detail.json",
+        "https://api.gilt.com/v1/products/124964098/detail.json",
+        "https://api.gilt.com/v1/products/124964087/detail.json",
+        "https://api.gilt.com/v1/products/124964085/detail.json",
+        "https://api.gilt.com/v1/products/124963918/detail.json",
+        "https://api.gilt.com/v1/products/124963930/detail.json",
+        "https://api.gilt.com/v1/products/124963993/detail.json",
+        "https://api.gilt.com/v1/products/124964030/detail.json",
+        "https://api.gilt.com/v1/products/124963938/detail.json",
+        "https://api.gilt.com/v1/products/124964106/detail.json",
+        "https://api.gilt.com/v1/products/124963916/detail.json",
+        "https://api.gilt.com/v1/products/124964033/detail.json",
+        "https://api.gilt.com/v1/products/124964094/detail.json",
+        "https://api.gilt.com/v1/products/124963936/detail.json",
+        "https://api.gilt.com/v1/products/124963986/detail.json",
+        "https://api.gilt.com/v1/products/124964096/detail.json",
+        "https://api.gilt.com/v1/products/124963923/detail.json",
+        "https://api.gilt.com/v1/products/124964114/detail.json",
+        "https://api.gilt.com/v1/products/124963900/detail.json",
+        "https://api.gilt.com/v1/products/124963928/detail.json",
+        "https://api.gilt.com/v1/products/124964050/detail.json",
+        "https://api.gilt.com/v1/products/124964078/detail.json",
+        "https://api.gilt.com/v1/products/124963983/detail.json",
+        "https://api.gilt.com/v1/products/124964056/detail.json",
+        "https://api.gilt.com/v1/products/124964118/detail.json",
+        "https://api.gilt.com/v1/products/124963998/detail.json",
+        "https://api.gilt.com/v1/products/124963964/detail.json",
+        "https://api.gilt.com/v1/products/124963988/detail.json",
+        "https://api.gilt.com/v1/products/124963912/detail.json",
+        "https://api.gilt.com/v1/products/124963947/detail.json",
+        "https://api.gilt.com/v1/products/124963904/detail.json",
+        "https://api.gilt.com/v1/products/124964016/detail.json",
+        "https://api.gilt.com/v1/products/124964058/detail.json",
+        "https://api.gilt.com/v1/products/124964073/detail.json",
+        "https://api.gilt.com/v1/products/124964116/detail.json",
+        "https://api.gilt.com/v1/products/124964100/detail.json",
+        "https://api.gilt.com/v1/products/124964010/detail.json",
+        "https://api.gilt.com/v1/products/124963945/detail.json",
+        "https://api.gilt.com/v1/products/124964083/detail.json",
+        "https://api.gilt.com/v1/products/124964038/detail.json",
+        "https://api.gilt.com/v1/products/124963943/detail.json",
+        "https://api.gilt.com/v1/products/124963990/detail.json",
+        "https://api.gilt.com/v1/products/124963974/detail.json",
+        "https://api.gilt.com/v1/products/124964023/detail.json",
+        "https://api.gilt.com/v1/products/124963957/detail.json",
+        "https://api.gilt.com/v1/products/124964080/detail.json",
+        "https://api.gilt.com/v1/products/124964053/detail.json",
+        "https://api.gilt.com/v1/products/124964064/detail.json",
+        "https://api.gilt.com/v1/products/124964043/detail.json",
+        "https://api.gilt.com/v1/products/124964111/detail.json",
+        "https://api.gilt.com/v1/products/124964014/detail.json",
+        "https://api.gilt.com/v1/products/124963951/detail.json",
+        "https://api.gilt.com/v1/products/124964003/detail.json",
+        "https://api.gilt.com/v1/products/124963972/detail.json",
+        "https://api.gilt.com/v1/products/124963968/detail.json",
+        "https://api.gilt.com/v1/products/124964036/detail.json",
+        "https://api.gilt.com/v1/products/124963980/detail.json",
+        "https://api.gilt.com/v1/products/124964076/detail.json",
+        "https://api.gilt.com/v1/products/124963966/detail.json",
+        "https://api.gilt.com/v1/products/124964108/detail.json",
+        "https://api.gilt.com/v1/products/124963959/detail.json",
+        "https://api.gilt.com/v1/products/124964040/detail.json",
+        "https://api.gilt.com/v1/products/124964028/detail.json",
+        "https://api.gilt.com/v1/products/124964020/detail.json",
+        "https://api.gilt.com/v1/products/124964066/detail.json",
+        "https://api.gilt.com/v1/products/124963955/detail.json",
+        "https://api.gilt.com/v1/products/124964091/detail.json",
+        "https://api.gilt.com/v1/products/124964005/detail.json",
+        "https://api.gilt.com/v1/products/124964045/detail.json",
+        "https://api.gilt.com/v1/products/124964120/detail.json",
+        "https://api.gilt.com/v1/products/124964047/detail.json",
+        "https://api.gilt.com/v1/products/124964089/detail.json",
+        "https://api.gilt.com/v1/products/124964102/detail.json",
+        "https://api.gilt.com/v1/products/124964104/detail.json",
+        "https://api.gilt.com/v1/products/124964026/detail.json"
+      ]
+    },
+    {
+      "name": "Polarn O. Pyret Spring Styles for Baby & Kids",
+      "sale": "https://api.gilt.com/v1/sales/women/polarn-o-pyret-s-158/detail.json",
+      "sale_key": "polarn-o-pyret-s-158",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/children/polarn-o-pyret-sprin?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076165/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076073/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076156/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076112/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076114/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3907/139076168/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": ""
+    },
+    {
+      "name": "What to Wear to Work: Decoded",
+      "sale": "https://api.gilt.com/v1/sales/women/what-to-wear-to-work/detail.json",
+      "sale_key": "what-to-wear-to-work",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/what-to-wear-to-work/ss?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975217/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3798/137981429/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3798/137981954/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3798/137981787/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3797/137975149/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3798/137984166/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "Put an end to “What should I wear to work today?” with this sale, which includes all the basics for your job, from pencil skirts and fitted blazers to bolder blouses and dresses. The nine-to-five has never been more fashionable, thanks to Zac Posen, Calvin Klein Collection, Rachel Roy, and more."
+    },
+    {
+      "name": "The Quilted Accessory",
+      "sale": "https://api.gilt.com/v1/sales/women/the-quilted-accessor/detail.json",
+      "sale_key": "the-quilted-accessor",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/the-quilted-accessor?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139027370/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139025646/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139027098/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139026080/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139026091/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3902/139027433/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-23T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "This season, the quilted trend is getting a seriously stylish upgrade — and this sale is chock full of quilted pleasures. We've got luxe totes and shoulder bags adorned with edgy hardware, compact crossbodies in bright hues, and even laptop sleeves in animal-friendly faux leather.",
+      "products": [
+        "https://api.gilt.com/v1/products/67224088/detail.json",
+        "https://api.gilt.com/v1/products/86528984/detail.json",
+        "https://api.gilt.com/v1/products/67224092/detail.json",
+        "https://api.gilt.com/v1/products/67224098/detail.json",
+        "https://api.gilt.com/v1/products/130986365/detail.json",
+        "https://api.gilt.com/v1/products/130986497/detail.json",
+        "https://api.gilt.com/v1/products/130986464/detail.json",
+        "https://api.gilt.com/v1/products/130986568/detail.json",
+        "https://api.gilt.com/v1/products/101798776/detail.json",
+        "https://api.gilt.com/v1/products/101798912/detail.json",
+        "https://api.gilt.com/v1/products/101798786/detail.json",
+        "https://api.gilt.com/v1/products/82281085/detail.json",
+        "https://api.gilt.com/v1/products/93253469/detail.json",
+        "https://api.gilt.com/v1/products/82281077/detail.json",
+        "https://api.gilt.com/v1/products/93251871/detail.json",
+        "https://api.gilt.com/v1/products/78748504/detail.json",
+        "https://api.gilt.com/v1/products/78748499/detail.json",
+        "https://api.gilt.com/v1/products/134542266/detail.json",
+        "https://api.gilt.com/v1/products/93248893/detail.json",
+        "https://api.gilt.com/v1/products/132966560/detail.json",
+        "https://api.gilt.com/v1/products/101181412/detail.json",
+        "https://api.gilt.com/v1/products/101181408/detail.json",
+        "https://api.gilt.com/v1/products/101181418/detail.json",
+        "https://api.gilt.com/v1/products/90402367/detail.json",
+        "https://api.gilt.com/v1/products/90402371/detail.json",
+        "https://api.gilt.com/v1/products/101181406/detail.json",
+        "https://api.gilt.com/v1/products/90775842/detail.json",
+        "https://api.gilt.com/v1/products/90402369/detail.json",
+        "https://api.gilt.com/v1/products/101798868/detail.json",
+        "https://api.gilt.com/v1/products/101798902/detail.json",
+        "https://api.gilt.com/v1/products/82281080/detail.json",
+        "https://api.gilt.com/v1/products/82281082/detail.json",
+        "https://api.gilt.com/v1/products/93251867/detail.json",
+        "https://api.gilt.com/v1/products/82281070/detail.json",
+        "https://api.gilt.com/v1/products/82281072/detail.json",
+        "https://api.gilt.com/v1/products/130986386/detail.json",
+        "https://api.gilt.com/v1/products/130986390/detail.json",
+        "https://api.gilt.com/v1/products/134542256/detail.json",
+        "https://api.gilt.com/v1/products/132966526/detail.json",
+        "https://api.gilt.com/v1/products/132966524/detail.json",
+        "https://api.gilt.com/v1/products/132966504/detail.json",
+        "https://api.gilt.com/v1/products/132966507/detail.json"
+      ]
+    },
+    {
+      "name": "James Perse",
+      "sale": "https://api.gilt.com/v1/sales/women/james-perse-391/detail.json",
+      "sale_key": "james-perse-391",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/james-perse-391?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138420883/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138420811/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138420875/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138420833/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138427916/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3842/138420885/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-22T17:00:00Z",
+      "ends": "2012-02-25T05:00:00Z",
+      "description": "Perse’s super-soft cotton separates have inspired a feverish cult following, and it's easy to see why: They're as flatteringly tailored as they are effortlessly elegant. Slip into a selection of our favorites from the brand, including sweatshirt dresses that are easy as tees, as well as slouchy cargo pants, soft hoodies and cardies you'll want to wear every day.",
+      "products": [
+        "https://api.gilt.com/v1/products/127575923/detail.json",
+        "https://api.gilt.com/v1/products/127576361/detail.json",
+        "https://api.gilt.com/v1/products/127576280/detail.json",
+        "https://api.gilt.com/v1/products/127576173/detail.json",
+        "https://api.gilt.com/v1/products/127576306/detail.json",
+        "https://api.gilt.com/v1/products/127575925/detail.json",
+        "https://api.gilt.com/v1/products/127575967/detail.json",
+        "https://api.gilt.com/v1/products/127576065/detail.json",
+        "https://api.gilt.com/v1/products/127576033/detail.json",
+        "https://api.gilt.com/v1/products/127576276/detail.json",
+        "https://api.gilt.com/v1/products/127575913/detail.json",
+        "https://api.gilt.com/v1/products/127576153/detail.json",
+        "https://api.gilt.com/v1/products/127576317/detail.json",
+        "https://api.gilt.com/v1/products/127576018/detail.json",
+        "https://api.gilt.com/v1/products/127576062/detail.json",
+        "https://api.gilt.com/v1/products/127575898/detail.json",
+        "https://api.gilt.com/v1/products/127575945/detail.json",
+        "https://api.gilt.com/v1/products/127576090/detail.json",
+        "https://api.gilt.com/v1/products/127576325/detail.json",
+        "https://api.gilt.com/v1/products/127575927/detail.json",
+        "https://api.gilt.com/v1/products/127576371/detail.json",
+        "https://api.gilt.com/v1/products/127576302/detail.json",
+        "https://api.gilt.com/v1/products/127576196/detail.json",
+        "https://api.gilt.com/v1/products/127576031/detail.json",
+        "https://api.gilt.com/v1/products/127576331/detail.json",
+        "https://api.gilt.com/v1/products/127576150/detail.json",
+        "https://api.gilt.com/v1/products/127576015/detail.json",
+        "https://api.gilt.com/v1/products/127575972/detail.json",
+        "https://api.gilt.com/v1/products/127576375/detail.json",
+        "https://api.gilt.com/v1/products/127576294/detail.json",
+        "https://api.gilt.com/v1/products/127576311/detail.json",
+        "https://api.gilt.com/v1/products/127576023/detail.json",
+        "https://api.gilt.com/v1/products/127576358/detail.json",
+        "https://api.gilt.com/v1/products/127576134/detail.json",
+        "https://api.gilt.com/v1/products/127576171/detail.json",
+        "https://api.gilt.com/v1/products/127576221/detail.json",
+        "https://api.gilt.com/v1/products/127576206/detail.json",
+        "https://api.gilt.com/v1/products/127576068/detail.json",
+        "https://api.gilt.com/v1/products/127575900/detail.json",
+        "https://api.gilt.com/v1/products/127576286/detail.json",
+        "https://api.gilt.com/v1/products/127576284/detail.json",
+        "https://api.gilt.com/v1/products/127576163/detail.json",
+        "https://api.gilt.com/v1/products/127576258/detail.json",
+        "https://api.gilt.com/v1/products/127576347/detail.json",
+        "https://api.gilt.com/v1/products/127576099/detail.json",
+        "https://api.gilt.com/v1/products/127576194/detail.json",
+        "https://api.gilt.com/v1/products/127576190/detail.json",
+        "https://api.gilt.com/v1/products/127576364/detail.json",
+        "https://api.gilt.com/v1/products/127576097/detail.json",
+        "https://api.gilt.com/v1/products/127576300/detail.json",
+        "https://api.gilt.com/v1/products/127576147/detail.json",
+        "https://api.gilt.com/v1/products/127576373/detail.json",
+        "https://api.gilt.com/v1/products/127575911/detail.json",
+        "https://api.gilt.com/v1/products/127576204/detail.json",
+        "https://api.gilt.com/v1/products/127576054/detail.json",
+        "https://api.gilt.com/v1/products/127576076/detail.json",
+        "https://api.gilt.com/v1/products/127575987/detail.json",
+        "https://api.gilt.com/v1/products/127575996/detail.json",
+        "https://api.gilt.com/v1/products/127576012/detail.json",
+        "https://api.gilt.com/v1/products/127576029/detail.json",
+        "https://api.gilt.com/v1/products/127576274/detail.json",
+        "https://api.gilt.com/v1/products/127576142/detail.json",
+        "https://api.gilt.com/v1/products/127575965/detail.json",
+        "https://api.gilt.com/v1/products/127576139/detail.json",
+        "https://api.gilt.com/v1/products/127576088/detail.json",
+        "https://api.gilt.com/v1/products/127576309/detail.json",
+        "https://api.gilt.com/v1/products/127576059/detail.json",
+        "https://api.gilt.com/v1/products/127576270/detail.json",
+        "https://api.gilt.com/v1/products/127576266/detail.json",
+        "https://api.gilt.com/v1/products/127576354/detail.json",
+        "https://api.gilt.com/v1/products/127576074/detail.json",
+        "https://api.gilt.com/v1/products/127575895/detail.json",
+        "https://api.gilt.com/v1/products/127576352/detail.json",
+        "https://api.gilt.com/v1/products/127575956/detail.json",
+        "https://api.gilt.com/v1/products/127576186/detail.json",
+        "https://api.gilt.com/v1/products/127576182/detail.json",
+        "https://api.gilt.com/v1/products/127575999/detail.json",
+        "https://api.gilt.com/v1/products/127576131/detail.json",
+        "https://api.gilt.com/v1/products/127576377/detail.json",
+        "https://api.gilt.com/v1/products/127576315/detail.json",
+        "https://api.gilt.com/v1/products/127576229/detail.json",
+        "https://api.gilt.com/v1/products/127576071/detail.json",
+        "https://api.gilt.com/v1/products/127576320/detail.json",
+        "https://api.gilt.com/v1/products/127575958/detail.json",
+        "https://api.gilt.com/v1/products/127575949/detail.json",
+        "https://api.gilt.com/v1/products/127576167/detail.json",
+        "https://api.gilt.com/v1/products/127576296/detail.json",
+        "https://api.gilt.com/v1/products/127576367/detail.json",
+        "https://api.gilt.com/v1/products/127576338/detail.json",
+        "https://api.gilt.com/v1/products/127576219/detail.json",
+        "https://api.gilt.com/v1/products/127575983/detail.json",
+        "https://api.gilt.com/v1/products/127576209/detail.json",
+        "https://api.gilt.com/v1/products/127576144/detail.json",
+        "https://api.gilt.com/v1/products/127575921/detail.json",
+        "https://api.gilt.com/v1/products/127576298/detail.json",
+        "https://api.gilt.com/v1/products/127576268/detail.json",
+        "https://api.gilt.com/v1/products/127576288/detail.json"
+      ]
+    },
+    {
+      "name": "Wardrobe Essentials: Everything You Need",
+      "sale": "https://api.gilt.com/v1/sales/women/wardrobe-essenti-860/detail.json",
+      "sale_key": "wardrobe-essenti-860",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/wardrobe-essenti-860/ss?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189241/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189169/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189233/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189191/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3825/138253523/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3818/138189243/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-18T17:00:00Z",
+      "ends": "2012-02-25T11:00:00Z",
+      "description": "Meet the components of classic, versatile style: the little bright dress, the statement blouse, the clean jean, the transitional scarf, the transitional shoe, the diamond accent, the perfect sock, and the carryall. \r\n\r\n"
+    },
+    {
+      "name": "Fine Jewelry Personal Shopping",
+      "sale": "https://api.gilt.com/v1/sales/women/fine-jewelry-concier/detail.json",
+      "sale_key": "fine-jewelry-concier",
+      "store": "women",
+      "sale_url": "http://www.gilt.com/sale/women/fine-jewelry-concier/ss?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi",
+      "image_urls": {
+        "300x184": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3802/138020012/orig.jpg",
+            "width": 300,
+            "height": 184
+          }
+        ],
+        "300x280": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3804/138048100/orig.jpg",
+            "width": 300,
+            "height": 280
+          }
+        ],
+        "100x93": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3802/138020001/orig.jpg",
+            "width": 100,
+            "height": 93
+          }
+        ],
+        "636x400": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3801/138019624/orig.jpg",
+            "width": 636,
+            "height": 400
+          }
+        ],
+        "455x172": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3801/138019627/orig.jpg",
+            "width": 455,
+            "height": 172
+          }
+        ],
+        "370x345": [
+          {
+            "url": "http://cdn1.gilt.com/images/share/uploads/0000/0001/3802/138020020/orig.jpg",
+            "width": 370,
+            "height": 345
+          }
+        ]
+      },
+      "begins": "2012-02-14T17:00:00Z",
+      "ends": "2012-02-28T17:00:00Z",
+      "description": "Our Fine Jewelry Personal Shopping team is now available to offer one-on-one assistance in finding everything from classic investment pieces to one-of-a-kind designs not currently available on Gilt.com. To give you some idea of the kinds of gorgeous gems to which we have access, we’ve rounded up an amazing array of finds for your perusing pleasure, including multi-gem earrings, museum-worthy necklaces, and diamonds galore. <br>\r\n\r\n<br><b>Looking for something you don’t see here? Contact our Personal Jewelry Shopping team at jewelryrequests@gilt.com or (855) 758-3765.</b>"
+    }
+  ]
+}

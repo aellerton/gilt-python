@@ -4,6 +4,9 @@ __version__ = '.'.join(__version_info__)
 class GiltException(Exception):
   pass
 
+class GiltAuthException(Exception):
+  pass
+
 class GiltRestException(GiltException):
   def __init__(self, status, uri, msg=""):
     self.uri = uri
