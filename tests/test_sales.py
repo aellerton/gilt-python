@@ -93,5 +93,5 @@ class ListSaleTest(unittest.TestCase):
     
     self.assertEquals(str(sales[0].begins), '2012-02-29 17:00:00+00:00') # 2012-02-29T17:00:00Z
     self.assertEquals(str(sales[0].ends),   '2012-03-05 17:00:00+00:00') # 2012-03-05T17:00:00Z
-
+    self.assertEquals(sales[0].store, 'kids')
 
