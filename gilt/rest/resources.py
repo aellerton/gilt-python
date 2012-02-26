@@ -158,7 +158,99 @@ class ListResource(Resource):
 class RestInstanceResource(object):
   pass
 
+class RestDictAssignable(object):
+  pass
+
+class DictMappable(object):
+  pass
+
+def RestInstanceResource2(klass):
+  def nop(*args, **kwargs): pass
+  
+  print "Restify: %s" % klass
+  class_init = getattr(klass, '__init__', nop)
+  fields = getattr(klass, 'fields', None) or dict()
+  
+  def __init__(self, resource_url=None, resource_parent=None, resource_cred=None, **kwargs):
+    print "rest init:"
+    print "  kwargs:", kwargs
+    
+    # TODO: url, parent, cred
+    for k,v in kwargs.iteritems():
+      print "  set %s = %r" % (k, v)
+      field = fields.get(k, None)
+      if field:
+        xx
+      else:
+        setattr(self, k, v)
+    class_init(self)
+      
+  def load_json(json_blob, *args, **kwargs):
+    print "load_json:", json_blob
+    print "  args:", args
+    print "  kwargs:", kwargs
+    if isinstance(json_blob, dict):
+      for k,v in json_blob.iteritems():
+        print "  set %s = %r" % (k, v)
+      return klass(**json_blob)
+    elif isinstance(json_blob, list):
+      return [load_json(sub_blob) for sub_blob in json_blob]
+    else:
+      raise TypeError("Don't know how to process %s" % type(json_blob))
+
+
+  setattr(klass, '__init__', __init__)  
+  setattr(klass, 'load_json', staticmethod(load_json))  
+  return klass
+  
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
+
+
+class ProductContent(RestInstanceResource):
+  pass
+
+@RestInstanceResource2
+class ProductImage(object):
+  pass
+  def __init__(self):
+    print "original constructor"
+
+class MediaSet(RestInstanceResource, RestDictAssignable):
+  """xxx
+  """
+  @staticmethod
+  def load_json_dict(json_dict):
+    for key, part in json_dict.iteritems():
+      self.add(key, ProductImage.load_json_list(part))
+      
+  
+  def add(self, key, image_list):
+    setattr(self, "size_"+key, iamge_list)
+
+
+class SkuAttributes(InstanceResource, DictMappable):
+  pass
+
+class Sku(InstanceResource):
+  fields = dict(
+    msrp_price = float,
+    sale_price = float,
+    attributes = SkuAttributes,
+  )
+  
+
+class Product(RestInstanceResource):
+  """
+  Represents a specific product.
+
+  details of a specific product
+    https://api.gilt.com/v1/products/124344157/detail.json
+  """
+  fields = dict(
+    content = ProductContent,
+    image_urls = MediaSet,
+    skus = Sku,
+  )
 
 
 class SalesSection(object):
@@ -211,8 +303,16 @@ class Sale(RestInstanceResource):
     https://api.gilt.com/v1/sales/men/winter-weather-48/detail.json
   """
   fields = dict(
+    name = str,
+    sale = str, # api url for details
+    sale_key = str,
+    store = str,
+    sale_url = str, # gilt.com url
     begins = datetime,
     ends = datetime,
+    image_urls = MediaSet,
+    description = str,
+    products = None, # list of strings, each string is an api url for product details
     )
   
   def get(self, store=None, sale_key=None, uri=None):
@@ -238,6 +338,7 @@ class Sale(RestInstanceResource):
 
     return self.get_instance(url=url)
       
+
 
 class Products(ListResource):
   """
@@ -284,35 +385,3 @@ class Products(ListResource):
     return [self.get(item) for item in product_id_or_url_list]
   
   
-class Product(InstanceResource):
-  """
-  Represents a specific product.
-
-  details of a specific product
-    https://api.gilt.com/v1/products/124344157/detail.json
-  """
-  fields = {
-    content = ProductContent,
-    image_urls = (dict, ProductImage),
-    skus = Sku,
-  }
-
-
-class ProductContent(InstanceResource):
-  pass
-
-
-class ProductImage(InstanceResource):
-  pass
-
-
-class Sku(InstanceResource):
-  fields = {
-    msrp_price = float,
-    sale_price = float,
-    attributes = SkuAttributes,
-  }
-  
-class SkuAttributes(InstanceResource, DictMappable):
-  pass
-

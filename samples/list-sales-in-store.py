@@ -1,8 +1,13 @@
 #!/usr/bin/env python
-from gilt.rest import GiltRestClient
+from gilt.rest import GiltApiClient
 
-client = GiltRestClient()
-sales = client.sales.upcoming.list('women')
-for sale in client.sales.active.list():
-  print "%s, %s: %d products" % (sale.name, sale.description, len(sale.products))
+for sale in GiltApiClient().sales.active.list('women'):
+  print "%s: %d products" % (sale.name, len(sale.products))
+  print "  %s" % sale.description
+  print
+
+# or:
+# for sale in GiltApiClient().women.active.sales():
+# ...
+# ?
 

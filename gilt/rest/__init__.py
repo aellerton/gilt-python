@@ -12,7 +12,7 @@ variable ``GILT_API_KEY``.
 Get keys from https://dev.gilt.com/user/register
 """
 
-def find_api_key():
+def detect_credentials():
   """
   Attempt to detect API key in the environment.
   """
@@ -23,7 +23,7 @@ def find_api_key():
     return None
 
 
-class GiltRestClient(object):
+class GiltApiClient(object):
   """
   A client for accessing the Gilt REST API
   """
@@ -31,7 +31,7 @@ class GiltRestClient(object):
     """
     Create a Gilt REST API client.
     """
-    self.api_key = api_key or find_api_key()
+    self.api_key = api_key or detect_credentials()
     if not self.api_key:
       raise GiltAuthException(AUTH_KEY_MISSING)
 
