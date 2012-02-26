@@ -344,7 +344,8 @@ class Sku(object):
   def is_sold_out(self):
     return getattr(self, 'inventory_status', None) == 'sold out'
 
-class Product(RestInstanceResource):
+@rest_instance_resource
+class Product(object):
   """
   Represents a specific product.
 
@@ -356,6 +357,14 @@ class Product(RestInstanceResource):
     image_urls = MediaSet,
     skus = Sku,
   )
+  
+  @property
+  def num_image_lists(self):
+    todo
+    
+  @property
+  def num_skus(self):
+    return len(self.skus)
 
 
 class SalesSection(object):

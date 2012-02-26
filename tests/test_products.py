@@ -1,31 +1,43 @@
 #!/usr/bin/env python
-
-# TODO: make into proper unit tests
+import unittest
 from gilt.rest.resources import json
-from gilt.rest.resources import ProductLookImage
+from gilt.rest.resources import Product
 
+class ProductTest(unittest.TestCase):
 
-with open('tests/resources/sale-women-detail-fall-clearance.json') as src:
-  json_content = json.load(src)
-  json_image_urls = json_content['image_urls']
-  json_300x184 = json_image_urls['300x184']
-  print ">", json_300x184
+  def setUp(self):
+    with open('tests/resources/product-detail-93603981.json') as src:
+      self.json_content = json.load(src)
 
-  json_image = json_300x184[0]
-  print ">>", json_image
-  image = ProductLookImage.load_json(json_image)
-  print ">>> Image:", image.__dict__
-  assert image.width == 300
-  assert image.height == 184
-  assert image.url == 'http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248813/orig.jpg'
-  
-  print "\n\n# Test image list..."
-  image_list = ProductLookImage.load_json(json_300x184)
-
-  print "  Number of images:", len(image_list)
-  for image in image_list:
-    print "    Image:", image
-    print "      ", image.__dict__
-    print
-
-  
+  def test_product_1(self):
+    product = Product.load_json(self.json_content)
+    self.assertEquals(product.name, 'Canvas Twill Timeless Trench')
+    self.assertEquals(product.id, 93603981)
+    self.assertEquals(product.brand, 'Gryphon')
+    self.assertEquals(product.url, 'http://www.gilt.com/m/public/look/?utm_medium=api&utm_campaign=PublicAPIAlpha&utm_source=salesapi&s_id=4f9f381ffa13e06bf47b8e9994f1c8b87f58df34345d5ae1b213998dd627cb65_0_93603981')
+    self.assertEquals(product.content.description, 'Cotton canvas twill blend woven trench coat. Snip.')
+    self.assertEquals(product.content.material, '67% cotton and 33% nylon shell. 100% acetate lining')
+    self.assertEquals(product.content.origin, 'China')
+    print product.image_urls
+    
+    self.assertEquals(product.num_skus, 4)
+    self.assertEquals(product.skus[0].id, 1225400)
+    self.assertEquals(product.skus[0].inventory_status, 'for sale')
+    self.assertEquals(product.skus[0].is_for_sale, True)
+    self.assertEquals(product.skus[0].is_sold_out, False)
+    self.assertEquals(product.skus[0].attribute('color').value, 'black')
+    self.assertEquals(product.skus[0].attribute('hue').value, 'dark')
+    
+    self.assertEquals(product.skus[1].id, 1383500)
+    self.assertEquals(product.skus[1].inventory_status, 'sold out')
+    self.assertEquals(product.skus[1].is_for_sale, False)
+    self.assertEquals(product.skus[1].is_sold_out, True)
+    
+    self.assertEquals(product.skus[3].id, 1383498)
+    self.assertEquals(product.skus[3].attribute('color').value, 'red')
+    #self.assertEquals(product.skus[3].attributes.color, 'red')
+    
+    
+    #self.assertFalse(product.image_urls)
+    
+    

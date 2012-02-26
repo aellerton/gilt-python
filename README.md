@@ -93,4 +93,15 @@ for i, product in enumerate(products):
 
 ```
 
+## Design Principles
+
+* Model classes should be pythonic.
+
+  Users should not have to use dictionaries to access fields.
+
+* Loading data should be pythonic.
+
+  Throwing together big and small programs should use familiar constructs with minimal magic.
+
+* more...
 
