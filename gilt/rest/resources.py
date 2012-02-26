@@ -291,6 +291,9 @@ class MediaSet(object):
   def __len__(self):
     return len(self.sets)/2
     
+  def __contains__(self, key):
+    return key in self.sets
+    
   def add(self, key, image_list):
     print "in mediaset add:", key, image_list
     #setattr(self, "size_"+key, immge_list)

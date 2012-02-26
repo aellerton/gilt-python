@@ -18,7 +18,12 @@ class ProductTest(unittest.TestCase):
     self.assertEquals(product.content.description, 'Cotton canvas twill blend woven trench coat. Snip.')
     self.assertEquals(product.content.material, '67% cotton and 33% nylon shell. 100% acetate lining')
     self.assertEquals(product.content.origin, 'China')
+    
     print product.image_urls
+    self.assertEquals(len(product.image_urls), 3)
+    self.assertTrue((91,121) in product.image_urls)
+    self.assertTrue((300,400) in product.image_urls)
+    self.assertTrue((420,560) in product.image_urls)
     
     self.assertEquals(product.num_skus, 4)
     self.assertEquals(product.skus[0].id, 1225400)
@@ -36,8 +41,4 @@ class ProductTest(unittest.TestCase):
     self.assertEquals(product.skus[3].id, 1383498)
     self.assertEquals(product.skus[3].attribute('color').value, 'red')
     #self.assertEquals(product.skus[3].attributes.color, 'red')
-    
-    
-    #self.assertFalse(product.image_urls)
-    
     

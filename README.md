@@ -98,10 +98,16 @@ for i, product in enumerate(products):
 * Model classes should be pythonic.
 
   Users should not have to use dictionaries to access fields.
+  Types should be what you expect, including dates.
 
 * Loading data should be pythonic.
 
   Throwing together big and small programs should use familiar constructs with minimal magic.
+
+* Respect and reflect the API
+
+  Naming is kept as consistent as possible with exactly what the API provides.
+  This includes methods, classes and fields.
 
 * more...
 
