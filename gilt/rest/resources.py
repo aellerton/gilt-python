@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 import logging
+import iso8601
 
 try: 
   import simplejson as json
@@ -204,8 +205,11 @@ def rest_instance_resource(klass):
       print ">>field_class", json_key, field_class
       if hasattr(field_class, 'load_json'):
         return field_class.load_json(json_value)
+      elif issubclass(field_class, datetime):
+        print ">>> constructing '%s' -> %r as iso datetime" % (json_key, json_value)
+        return iso8601.parse_date(json_value)
       else:
-        print ">>> constructing as ", field_class
+        print ">>> constructing '%s' -> %r as %s" % (json_key, json_value, field_class)
         return field_class(json_value) # e.g. str, int, float
     else:
       return json_value
@@ -384,7 +388,6 @@ class SalesSection(object):
     self.upcoming = Sales(base_url, api_key, '/upcoming')
     self.details = Sale(base_url, api_key)
 
-
 class Sales(ListResource):
   """
   Retrieves lists of sales.
@@ -417,7 +420,8 @@ class Sales(ListResource):
     return self.get_instances(params=params, url=url, **kwargs)
 
   
-class Sale(RestInstanceResource):
+@rest_instance_resource
+class Sale(object):
   """
   Retrieves a specific sale.
 
@@ -437,7 +441,11 @@ class Sale(RestInstanceResource):
     products = None, # list of strings, each string is an api url for product details
     )
   
-  def get(self, store=None, sale_key=None, uri=None):
+  @property
+  def num_products(self):
+    return len(self.products)
+  
+  def TODO_get(self, store=None, sale_key=None, uri=None):
     """
     Return details of a specific sale, identified either with store/sale_key pair
     or the uri.
