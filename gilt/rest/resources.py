@@ -135,7 +135,7 @@ class MediaSet(object):
   """
   def __init__(self):
     self.sets = dict()
-    self.image_sizes = set()
+    self.image_sizes = list()
     
   def __len__(self):
     return len(self.sets)/2
@@ -148,7 +148,8 @@ class MediaSet(object):
     size_tuple = (int(width), int(height))
 
     self.sets[key] = image_list
-    self.image_sizes.add(size_tuple)
+    assert size_tuple not in self.image_sizes # should never happen
+    self.image_sizes.append(size_tuple)
     self.sets[size_tuple] = image_list
 
   def image_list(self, key):
@@ -247,6 +248,15 @@ class Sale(object):
   @property
   def num_products(self):
     return len(self.products)
+    
+  def get(self, store, sale_key):
+    # will add {store}/{sale_key}/detail.json
+    url = '%s/%s/%s/detail' % (self.resource_base_url, store, sale_key)
+    return self.load_json(self.resource_client.get_json(url))
+    
+  detail = get
+  __call__ = get
+  
   
 
 @rest_resource

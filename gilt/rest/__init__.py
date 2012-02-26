@@ -98,3 +98,5 @@ class SalesSection(object):
     self.upcoming = SaleList(client, base_url, '/upcoming')
     self.detail = Sale(client, base_url) # it will add {store}/{sale_key}/detail.json
 
+  #def detail(self, store, sale_key):
+    
