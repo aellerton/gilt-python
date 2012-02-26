@@ -41,3 +41,12 @@ class GiltApiClient(object):
     self.products = Products(base_url+'/products', api_key)
 
 
+class SalesSection(object):
+  """
+  Top level access to sales API calls.
+  """
+  def __init__(self, base_url, api_key):
+    self.active = Sales(base_url, api_key, '/active')
+    self.upcoming = Sales(base_url, api_key, '/upcoming')
+    self.details = Sale(base_url, api_key)
+
