@@ -11,6 +11,6 @@ for sale in GiltApiClient().sales.active():
   #print "  Ends:     %s" % sale.ends
   #print "  Duration: %s" % (sale.ends-sale.begins)
   print "  For details:"
-  print "    python samples/get-sale.py %s %s" % (sale.store, sale.sale_key)
+  print "    python samples/get-sale-detail.py %s %s" % (sale.store, sale.sale_key)
   print
 
