@@ -2,8 +2,9 @@
 import unittest
 from gilt.rest.resources import json
 from gilt.rest.resources import Sale
+from gilt.rest.resources import SaleList
 
-class SaleTest(unittest.TestCase):
+class SingleSaleTest(unittest.TestCase):
 
   def setUp(self):
     with open('tests/resources/sale-women-detail-fall-clearance.json') as src:
@@ -57,3 +58,24 @@ class SaleTest(unittest.TestCase):
     self.assertEquals(sale.products[-2], 'https://api.gilt.com/v1/products/78754851/detail.json')
     self.assertEquals(sale.products[-1], 'https://api.gilt.com/v1/products/88513852/detail.json')
 
+
+class ListSaleTest(unittest.TestCase):
+
+  def setUp(self):
+    with open('tests/resources/sales-active.json') as src:
+      self.json_content = json.load(src)
+
+  def test_sale_1(self):
+    sales = SaleList.load_json(self.json_content)
+    self.assertEquals(len(sales), 95)
+    self.assertEquals(sales[0].name, 'Jewelry Under $50')
+    self.assertEquals(sales[1].name, 'Watches Under $100')
+    self.assertEquals(sales[-1].name, 'Fine Jewelry Personal Shopping')
+    
+    # prove iteration over all sales
+    names = [sale.name for sale in sales]
+    self.assertEquals(len(names), 95)
+    self.assertEquals(names[0], 'Jewelry Under $50')
+    self.assertEquals(names[1], 'Watches Under $100')
+    self.assertEquals(names[-1], 'Fine Jewelry Personal Shopping')
+    

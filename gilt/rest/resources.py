@@ -178,17 +178,17 @@ class DictMappable(object):
 def rest_instance_resource(klass):
   def nop(*args, **kwargs): pass
   
-  print "Restify: %s" % klass
+  #print "Restify: %s" % klass
   class_init = getattr(klass, '__init__', nop)
   fields = getattr(klass, 'fields', None) or dict()
   
   def __init__(self, resource_url=None, resource_parent=None, resource_cred=None, **kwargs):
-    print "rest init:"
-    print "  kwargs:", kwargs
+    #print "rest init:"
+    #print "  kwargs:", kwargs
     
     # TODO: url, parent, cred
     for k,v in kwargs.iteritems():
-      print "  set %s = %r" % (k, v)
+      #print "  set %s = %r" % (k, v)
       setattr(self, k, v)
       
     # Invoke original constructor. TODO: This seems a bit unpythonic.
@@ -202,14 +202,21 @@ def rest_instance_resource(klass):
   def transform_json_value_type(json_key, json_value):
     field_class = fields.get(json_key, None)
     if field_class:
-      print ">>field_class", json_key, field_class
+      #print ">>field_class", json_key, field_class
       if hasattr(field_class, 'load_json'):
         return field_class.load_json(json_value)
+      elif issubclass(field_class, basestring):
+        # Strings are common. Avoid encoding issues and risk of duplicating
+        # strings (not sure if it would) by just passing the string through.
+        if isinstance(json_value, basestring):
+          return json_value
+        else:
+          return field_class(json_value)
       elif issubclass(field_class, datetime):
-        print ">>> constructing '%s' -> %r as iso datetime" % (json_key, json_value)
+        #print ">>> constructing '%s' -> %r as iso datetime" % (json_key, json_value)
         return iso8601.parse_date(json_value)
       else:
-        print ">>> constructing '%s' -> %r as %s" % (json_key, json_value, field_class)
+        #print ">>> constructing '%s' -> %r as %s" % (json_key, json_value, field_class)
         return field_class(json_value) # e.g. str, int, float
     else:
       return json_value
@@ -218,9 +225,9 @@ def rest_instance_resource(klass):
     if isinstance(json_blob, basestring):
       # assume caller passed raw text that needs to be parsed
       json_blob = json.loads(json_blob)
-    print "load_json:", json_blob
-    print "  args:", args
-    print "  kwargs:", kwargs
+    #print "load_json:", json_blob
+    #print "  args:", args
+    #print "  kwargs:", kwargs
     
     if isinstance(json_blob, dict):
       transformed_json_dict = dict((k,transform_json_value_type(k, v)) for k,v in json_blob.iteritems())
@@ -259,7 +266,7 @@ def rest_key_assign(call, value_type):
   def inner(klass):
 
     def load_json_dict(json_dict, *args, **kwargs):
-      print "hey, rest_dict_assign's load_json_dict"
+      #print "hey, rest_dict_assign's load_json_dict"
       inst = klass()
       key_assign_method = getattr(inst, call)
       for json_key, json_blob in json_dict.iteritems():
@@ -304,7 +311,7 @@ class MediaSet(object):
     return key in self.sets
     
   def add(self, key, image_list):
-    print "in mediaset add:", key, image_list
+    #print "in mediaset add:", key, image_list
     #setattr(self, "size_"+key, immge_list)
     width, height = key.split('x')
     size_tuple = (int(width), int(height))
@@ -388,37 +395,6 @@ class SalesSection(object):
     self.upcoming = Sales(base_url, api_key, '/upcoming')
     self.details = Sale(base_url, api_key)
 
-class Sales(ListResource):
-  """
-  Retrieves lists of sales.
-
-  all active sales:
-    https://api.gilt.com/v1/sales/active.json
-
-  all upcoming sales:
-    https://api.gilt.com/v1/sales/upcoming.json
-
-  all active sales in mens store
-    https://api.gilt.com/v1/sales/men/active.json
-  """
-  def __init__(self, base_url, api_key, variant):
-    self.base_url = base_url
-    self.api_key = api_key
-    self.variant = variant
-
-  def list(self, store=None, **kwargs):
-    """
-    Returns a list of :class:`Sale` resources as a list. 
-
-    :param store: If set, get sales only for this store (mens/womens/kids/home).
-    """
-    if store: 
-      url = "%s/%s" % (self.base_url, self.variant)
-    else:
-      url = "%s/%s/%s" % (self.base_url, self.store, self.variant)
-    params = dict(apikey=self.api_key)
-    return self.get_instances(params=params, url=url, **kwargs)
-
   
 @rest_instance_resource
 class Sale(object):
@@ -445,73 +421,32 @@ class Sale(object):
   def num_products(self):
     return len(self.products)
   
-  def TODO_get(self, store=None, sale_key=None, uri=None):
-    """
-    Return details of a specific sale, identified either with store/sale_key pair
-    or the uri.
 
-    :param store: If set, specifies the store this sale belongs to. Must be set if sale_key is set.
-    :param sale_key: If set, specifies the sale_key of interest. Must be set if store is set.
-    :param uri: If set is a full or partial uri to the sale details.
-    """
-    if not uri: 
-      if not store or not sale_url_key:
-        raise GiltException("sale.get: If uri is not specified, set both store and sale_url_key")
-      url = '%s/%s/%s/detail.json' % (self.base_url, store, sale_key)
-    elif url.startswith('http'):
-      # assuming url is absolute
-      pass
-    elif url.startswith('/'):
-      url = "%s/%s" % (self.base_url, url.lstrip('/'))
-    else:
-      url = "%s/%s" % (self.base_url, url)
-
-    return self.get_instance(url=url)
-      
-
-
-class Products(ListResource):
+@rest_instance_resource
+class SaleList(object):
   """
-  Retrieves a lists of products.
+  A list-like object representing a list of sales.
+  Supports iteration and indexing by integer.
 
-  details of a specific product
-    https://api.gilt.com/v1/products/124344157/detail.json
+  all active sales:
+    https://api.gilt.com/v1/sales/active.json
+
+  all upcoming sales:
+    https://api.gilt.com/v1/sales/upcoming.json
+
+  all active sales in mens store
+    https://api.gilt.com/v1/sales/men/active.json
   """
-  def __init__(self, base_url, api_key, variant):
-    self.base_url = base_url
-    self.api_key = api_key
-    self.variant = variant
-
-  def get(self, product_id_or_url, **kwargs):
-    """
-    Returns a single instance of :class:`Product`.
-
-    :param product_id_or_url: either a product id or a url to retrieve.
-    """
-    if type(product_id_or_url) == types.IntType or \
-      (type(product_id_or_url) == types.StringType and product_id_or_url.isdigit()):
-      # caller has given a specific product id
-      url = "%s/%s/detail" % (self.base_url, product_id_or_url)
-
-    elif url.startswith('http'): # url is absolute
-      pass
-
-    else: # url is relative
-      url = "%s/%s" % (self.base_url, url.lstrip('/'))
-
-    return self.get_instance(url=url)
-
-  def list(self, product_id_or_url_list, **kwargs):
-    """
-    Returns a list of :class:`Product` resources as a list. 
-
-    :param product_id_or_url_list: each item in the list is either a product id or a url to retrieve.
-    """
+  fields = dict(
+    sales = Sale # list of Sale objects
+    )
+  
+  def __len__(self):
+    return len(self.sales)
     
-    if product_id_or_url_list in (types.StringType, types.IntType):
-      # just in case the user passed a scalar
-      return self.get(product_id_or_url_list, **kwargs)
+  def __iter__(self):
+    return iter(self.sales)
+    
+  def __getitem__(self, index):
+    return self.sales[index]
 
-    return [self.get(item) for item in product_id_or_url_list]
-  
-  
