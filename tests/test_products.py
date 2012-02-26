@@ -2,7 +2,7 @@
 
 # TODO: make into proper unit tests
 from gilt.rest.resources import json
-from gilt.rest.resources import ProductImage
+from gilt.rest.resources import ProductLookImage
 
 
 with open('tests/resources/sale-women-detail-fall-clearance.json') as src:
@@ -13,14 +13,14 @@ with open('tests/resources/sale-women-detail-fall-clearance.json') as src:
 
   json_image = json_300x184[0]
   print ">>", json_image
-  image = ProductImage.load_json(json_image)
+  image = ProductLookImage.load_json(json_image)
   print ">>> Image:", image.__dict__
   assert image.width == 300
   assert image.height == 184
   assert image.url == 'http://cdn1.gilt.com/images/share/uploads/0000/0001/3924/139248813/orig.jpg'
   
   print "\n\n# Test image list..."
-  image_list = ProductImage.load_json(json_300x184)
+  image_list = ProductLookImage.load_json(json_300x184)
 
   print "  Number of images:", len(image_list)
   for image in image_list:

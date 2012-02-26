@@ -72,6 +72,10 @@
         {
           "name": "color",
           "value": "black"
+        },
+        {
+          "name": "hue",
+          "value": "dark"
         }
       ]
     },

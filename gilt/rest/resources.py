@@ -154,17 +154,27 @@ class ListResource(Resource):
 
 
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
+# http://stackoverflow.com/questions/961048/get-class-that-defined-method-in-python
+import inspect
+
+def get_class_that_defined_method(meth):
+  obj = meth.im_self
+  for cls in inspect.getmro(meth.im_class):
+    if meth.__name__ in cls.__dict__: return cls
+  return None
+
+# --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 
 class RestInstanceResource(object):
   pass
 
-class RestDictAssignable(object):
+class rest_dict_assignable(object):
   pass
 
 class DictMappable(object):
   pass
 
-def RestInstanceResource2(klass):
+def rest_instance_resource(klass):
   def nop(*args, **kwargs): pass
   
   print "Restify: %s" % klass
@@ -178,66 +188,161 @@ def RestInstanceResource2(klass):
     # TODO: url, parent, cred
     for k,v in kwargs.iteritems():
       print "  set %s = %r" % (k, v)
-      field = fields.get(k, None)
-      if field:
-        xx
-      else:
-        setattr(self, k, v)
+      setattr(self, k, v)
+      
+    # Invoke original constructor. TODO: This seems a bit unpythonic.
     class_init(self)
       
+  def __repr__(self):
+    return "%s(%s)" % ( self.__class__.__name__, ', '.join(
+      ['%s=%r' % (k, v) for k, v in self.__dict__.iteritems()]
+      ))
+    
+  def transform_json_value_type(json_key, json_value):
+    field_class = fields.get(json_key, None)
+    if field_class:
+      print ">>field_class", json_key, field_class
+      if hasattr(field_class, 'load_json'):
+        return field_class.load_json(json_value)
+      else:
+        print ">>> constructing as ", field_class
+        return field_class(json_value) # e.g. str, int, float
+    else:
+      return json_value
+
   def load_json(json_blob, *args, **kwargs):
+    if isinstance(json_blob, basestring):
+      # assume caller passed raw text that needs to be parsed
+      json_blob = json.loads(json_blob)
     print "load_json:", json_blob
     print "  args:", args
     print "  kwargs:", kwargs
+    
     if isinstance(json_blob, dict):
-      for k,v in json_blob.iteritems():
-        print "  set %s = %r" % (k, v)
-      return klass(**json_blob)
+      transformed_json_dict = dict((k,transform_json_value_type(k, v)) for k,v in json_blob.iteritems())
+      load_json_dict = getattr(klass, 'load_json_dict', None)
+      if load_json_dict:
+        return load_json_dict(transformed_json_dict)
+      else:
+        #for k,v in transformed_json_dict.iteritems():
+        #  print "  set %s = %r" % (k, v)
+        return klass(**transformed_json_dict)
     elif isinstance(json_blob, list):
       return [load_json(sub_blob) for sub_blob in json_blob]
     else:
       raise TypeError("Don't know how to process %s" % type(json_blob))
 
-
-  setattr(klass, '__init__', __init__)  
+  setattr(klass, '__init__', __init__)
+  setattr(klass, '__repr__', __repr__)  
   setattr(klass, 'load_json', staticmethod(load_json))  
+
   return klass
   
+def rest_dict_assignable(value_type):
+  def inner(method_to_wrap):
+    #def invoke(*args, **kwargs):
+    #  print ">>>invoke", args, kwargs
+    #  
+    #print "dict assign on %s" % method_to_wrap.__class__ #.imclass
+    #print "inner!:", method_to_wrap
+    method_to_wrap.__rest_dict_assign__=True
+    #klass = get_class_that_defined_method(method_to_wrap)
+    
+    return method_to_wrap
+  return inner
+
+def rest_key_assign(call, value_type):
+  def inner(klass):
+
+    def load_json_dict(json_dict, *args, **kwargs):
+      print "hey, rest_dict_assign's load_json_dict"
+      inst = klass()
+      key_assign_method = getattr(inst, call)
+      for json_key, json_blob in json_dict.iteritems():
+        value = value_type.load_json(json_blob)
+        key_assign_method(json_key, value)
+      return inst
+      
+    setattr(klass, "load_json_dict", staticmethod(load_json_dict))
+    return klass
+  return inner
+
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 
-
-class ProductContent(RestInstanceResource):
+@rest_instance_resource
+class ProductContent(object):
   pass
 
-@RestInstanceResource2
-class ProductImage(object):
-  pass
-  def __init__(self):
-    print "original constructor"
 
-class MediaSet(RestInstanceResource, RestDictAssignable):
+@rest_instance_resource
+class ProductLookImage(object):
+  pass
+
+
+@rest_key_assign(call="add", value_type=ProductLookImage)
+@rest_instance_resource
+class MediaSet(object):
   """xxx
   """
-  @staticmethod
-  def load_json_dict(json_dict):
-    for key, part in json_dict.iteritems():
-      self.add(key, ProductImage.load_json_list(part))
-      
-  
+  def __init__(self):
+    self.sets = dict()
+    self.image_sizes = set()
+    
+  def __len__(self):
+    return len(self.sets)/2
+    
   def add(self, key, image_list):
-    setattr(self, "size_"+key, iamge_list)
+    print "in mediaset add:", key, image_list
+    #setattr(self, "size_"+key, immge_list)
+    width, height = key.split('x')
+    size_tuple = (int(width), int(height))
+
+    self.sets[key] = image_list
+    self.image_sizes.add(size_tuple)
+    self.sets[size_tuple] = image_list
+
+  def image_list(self, key):
+    """Return the named image_list.
+    
+    :key: can be either the string size, like "300x184" or a tuple 
+      (width, height).
+    """
+    return self.sets[key]
 
 
-class SkuAttributes(InstanceResource, DictMappable):
+#class SkuAttributes(InstanceResource, DictMappable):
+
+@rest_instance_resource
+class SkuAttribute(object):
   pass
 
-class Sku(InstanceResource):
+@rest_instance_resource
+class Sku(object):
   fields = dict(
+    id = int,
+    inventory_status = str, # TODO: consider a class here
     msrp_price = float,
     sale_price = float,
-    attributes = SkuAttributes,
+    attributes = SkuAttribute,
   )
   
+  def __init__(self):
+    # properties are already loaded.
+    self._attribute_index = dict((attribute.name, attribute) for attribute in self.attributes)
+
+  def attribute(self, name):
+    return self._attribute_index.get(name, None)
+
+  def attribute_names(self):
+    return self._attribute_index.keys()
+
+  @property
+  def is_for_sale(self):
+    return getattr(self, 'inventory_status', None) == 'for sale'
+  
+  @property
+  def is_sold_out(self):
+    return getattr(self, 'inventory_status', None) == 'sold out'
 
 class Product(RestInstanceResource):
   """
