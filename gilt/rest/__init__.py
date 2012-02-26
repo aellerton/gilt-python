@@ -4,6 +4,7 @@ from urllib import urlencode
 from gilt import GiltAuthException
 from gilt.rest.resources import *
 
+
 AUTH_KEY_MISSING = """
 ERROR: API Key not set. 
 
@@ -17,9 +18,10 @@ Get keys from https://dev.gilt.com/user/register
 You can also pass it to the GiltApiClient constructor.
 """
 
+
 class GiltApiCredentials(object):
   def __init__(self, api_key=None):
-    self.api_key = api_key or self.auto_detect()
+    self.api_key = api_key or os.environ.get("GILT_API_KEY", None)
     
   def __nonzero__(self):
     """This allows a Credentials object to be evaluated in a boolean context
@@ -38,17 +40,6 @@ class GiltApiCredentials(object):
     :request_params: is a dict that will build to a query tring.
     """
     request_params['apikey'] = self.api_key
-    
-  @staticmethod
-  def auto_detect():
-    """
-    Attempt to detect API key in the environment.
-    """
-    try:
-      api_key = os.environ["GILT_API_KEY"]
-      return api_key
-    except KeyError:
-      return None
 
 
 class GiltApiClient(object):

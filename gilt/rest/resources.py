@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 import logging
+import httplib2
 import iso8601
 
 try: 
@@ -10,9 +11,6 @@ except ImportError:
     import json
   except ImportError:
     from django.utils import simplejson as json
-
-import httplib2
-
 
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 
