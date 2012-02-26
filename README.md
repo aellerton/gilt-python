@@ -109,5 +109,9 @@ for i, product in enumerate(products):
   Naming is kept as consistent as possible with exactly what the API provides.
   This includes methods, classes and fields.
 
+* Timezone Neutral
+
+  Everything is in UTC. It is recommended that you work with UTC except for display formatting.
+
 * more...
 

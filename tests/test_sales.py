@@ -62,10 +62,12 @@ class SingleSaleTest(unittest.TestCase):
 class ListSaleTest(unittest.TestCase):
 
   def setUp(self):
+    pass
+
+  def test_active_1(self):
     with open('tests/resources/sales-active.json') as src:
       self.json_content = json.load(src)
-
-  def test_sale_1(self):
+      
     sales = SaleList.load_json(self.json_content)
     self.assertEquals(len(sales), 95)
     self.assertEquals(sales[0].name, 'Jewelry Under $50')
@@ -79,3 +81,17 @@ class ListSaleTest(unittest.TestCase):
     self.assertEquals(names[1], 'Watches Under $100')
     self.assertEquals(names[-1], 'Fine Jewelry Personal Shopping')
     
+  def test_upcoming_1(self):
+    with open('tests/resources/sales-kids-upcoming.json') as src:
+      self.json_content = json.load(src)
+      
+    sales = SaleList.load_json(self.json_content)
+    self.assertEquals(len(sales), 35)
+    self.assertEquals(sales[0].name, 'Peter Rabbit & Beatrix Potter')
+    self.assertEquals(sales[1].name, 'Good Habit Gluten-Free')
+    self.assertEquals(sales[-1].name, 'Wardrobe Essentials: Everything You Need')
+    
+    self.assertEquals(str(sales[0].begins), '2012-02-29 17:00:00+00:00') # 2012-02-29T17:00:00Z
+    self.assertEquals(str(sales[0].ends),   '2012-03-05 17:00:00+00:00') # 2012-03-05T17:00:00Z
+
+
