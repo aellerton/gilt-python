@@ -276,7 +276,12 @@ class ProductContent(object):
 
 @rest_instance_resource
 class ProductLookImage(object):
-  pass
+  @property
+  def size(self):
+    """Convenience method to return (width,height) as a tuple.
+    """
+    return (self.width, self.height)
+  
 
 
 @rest_key_assign(call="add", value_type=ProductLookImage)
