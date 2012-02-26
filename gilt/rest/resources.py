@@ -16,15 +16,22 @@ import httplib2
 
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 
-def rest_instance_resource(klass):
+def rest_resource(klass):
   def nop(*args, **kwargs): pass
   
   #print "Restify: %s" % klass
   class_init = getattr(klass, '__init__', nop)
   fields = getattr(klass, 'fields', None) or dict()
   
-  def __init__(self, resource_url=None, resource_parent=None, resource_cred=None, **kwargs):
-    # TODO: url, parent, cred
+  def __init__(self, 
+    resource_client=None, 
+    resource_base_url=None,
+    resource_tail_url=None, 
+    **kwargs):
+    self.resource_client = resource_client
+    self.resource_base_url = resource_base_url
+    self.resource_tail_url = resource_tail_url
+    
     for k,v in kwargs.iteritems():
       setattr(self, k, v)
       
@@ -33,7 +40,7 @@ def rest_instance_resource(klass):
       
   def __repr__(self):
     return "%s(%s)" % ( self.__class__.__name__, ', '.join(
-      ['%s=%r' % (k, v) for k, v in self.__dict__.iteritems()]
+      ['%s=%r' % (k, v) for k, v in self.__dict__.iteritems() if not k.startswith('resource')]
       ))
     
   def transform_json_value_type(json_key, json_value):
@@ -109,23 +116,22 @@ def rest_key_assign(call, value_type):
 
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 
-@rest_instance_resource
+@rest_resource
 class ProductContent(object):
   pass
 
 
-@rest_instance_resource
+@rest_resource
 class ProductLookImage(object):
   @property
   def size(self):
     """Convenience method to return (width,height) as a tuple.
     """
     return (self.width, self.height)
-  
 
 
 @rest_key_assign(call="add", value_type=ProductLookImage)
-@rest_instance_resource
+@rest_resource
 class MediaSet(object):
   """xxx
   """
@@ -140,8 +146,6 @@ class MediaSet(object):
     return key in self.sets
     
   def add(self, key, image_list):
-    #print "in mediaset add:", key, image_list
-    #setattr(self, "size_"+key, immge_list)
     width, height = key.split('x')
     size_tuple = (int(width), int(height))
 
@@ -158,12 +162,12 @@ class MediaSet(object):
     return self.sets[key]
 
 
-@rest_instance_resource
+@rest_resource
 class SkuAttribute(object):
   pass
 
 
-@rest_instance_resource
+@rest_resource
 class Sku(object):
   fields = dict(
     id = int,
@@ -192,7 +196,7 @@ class Sku(object):
     return getattr(self, 'inventory_status', None) == 'sold out'
 
 
-@rest_instance_resource
+@rest_resource
 class Product(object):
   """
   Represents a specific product.
@@ -211,7 +215,7 @@ class Product(object):
     return len(self.skus)
 
 
-@rest_instance_resource
+@rest_resource
 class Sale(object):
   """
   Retrieves a specific sale.
@@ -232,12 +236,22 @@ class Sale(object):
     products = None, # list of strings, each string is an api url for product details
     )
   
+  def __init__(self):
+    # some sales have no products, but that gets weird for code that expects
+    # at least an empty list.
+    if not hasattr(self, 'products'):
+      self.products=[]
+      
+    # Same for descriptions
+    if not hasattr(self, 'description'):
+      self.description = ""
+      
   @property
   def num_products(self):
     return len(self.products)
   
 
-@rest_instance_resource
+@rest_resource
 class SaleList(object):
   """
   A list-like object representing a list of sales.
@@ -264,5 +278,20 @@ class SaleList(object):
     
   def __getitem__(self, index):
     return self.sales[index]
+    
+  def list(self, store=None):
+    """
+    Returns a list of :class:`Sale` resources as a list. 
 
+    :param store: If set, get sales only for this store (mens/womens/kids/home).
+    """
+    if store: 
+      store = '/%s' % store.lstrip('/')
+    else:
+      store = ''
+      
+    url = '%s%s%s' % (self.resource_base_url, store, self.resource_tail_url)
+    return self.load_json(self.resource_client.get_json(url))
+
+  __call__ = list
 
