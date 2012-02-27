@@ -9,7 +9,10 @@ setup(
     author_email = "python-tech@gilt.com",
     url = "http://github.com/gilt/gilt-python/",
     keywords = ["gilt"],
-    install_requires = ["httplib2 == 0.7.1"],
+    install_requires = [
+        "httplib2 == 0.7.1", 
+        "iso8601 == 0.1.4",
+        ],
     packages = find_packages(),
     classifiers = [
         "Development Status :: 3 - Alpha",
@@ -32,4 +35,6 @@ setup(
     The Gilt API allows developers access to sale and product information from gilt.com.
     and much more.  See http://www.github.com/twilio/twilio-python for more information.
 
-     LICENSE The Python Gilt API distributed under the Apache Softare License.""" )
+    LICENSE 
+    The Python Gilt API distributed under the Apache Softare License.
+    """ )
