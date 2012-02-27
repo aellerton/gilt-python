@@ -103,6 +103,20 @@ class Product(object):
   def num_skus(self):
     return len(self.skus)
 
+  def get(self, product_id=None, url=None):
+    if product_id:
+      # base_url is /products, so add {id}/detail.json
+      url = '%s/%s/detail' % (self.resource_base_url, product_id)
+    elif url:
+      pass
+    else:
+      raise ValueError('Product.get: specify either id or url')
+    
+    return self.load_json(self.resource_client.get_json(url))
+    
+  detail = get
+  __call__ = get
+
 
 @rest_resource
 class Sale(object):

@@ -48,7 +48,7 @@ class GiltApiClient(object):
     self.base_url = '%s/%s' % (base_url, version)
     self.sales = SalesSection(self, self.base_url+'/sales')
     self.http = http or httplib2.Http
-    #self.products = Products(self, self.base_url+'/products')
+    self.products = Product(self, self.base_url+'/products')
 
   def get_json(self, url, params=None, cred=None, timeout=None):
     """Perform a GET request, parse the reply JSON.
