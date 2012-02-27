@@ -97,7 +97,7 @@ for sale in GiltApiClient().sales.active():
   print "%s:" % sale.name
 ```
 
-You can sort the sales alphabetically like this:
+The `Sales` object is not a python list, but it behaves like one.  You can sort the sales alphabetically like this:
 
 ```python
 
@@ -124,10 +124,9 @@ for sale in GiltApiClient().sales.upcoming():
 
 ### Picking a single store
 
-The above examples retrieve sales from across gilt.com.
+The above examples get all gilt.com sales.
 
-You can pick a single store by providing an argument to ``active()`` or ``upcoming()``.
-Current valid arguments are:
+You can pick a single store by providing an argument to ``active()`` or ``upcoming()``. Current valid arguments are:
 
 * women
 * men
@@ -142,31 +141,21 @@ for sale in GiltApiClient().sales.active('kids'):
   print "active kids sale: %s" % sale.name
 ```
 
-for sale in client.sales.active.list():
-  print "%(name)s: %(description)s" % sale.__dict__
-    if now > sale.begins: 
-      print "  Begins in %s and finishes in %s" % (now - sale.begins, sale.ends - now)
-    else: 
-      print "  Began %s ago and finishes in %s" % (sale.begins - now, sale.ends - now)
-
-```
-
-### Retrieve upcoming sales in the womens store
+Similarly, to retrive *upcoming* sales in the *womens* store:
 
 ```python
 
 from gilt.rest import GiltRestClient
 
-client = GiltRestClient()
-sales = client.sales.upcoming.list('women')
-for sale in client.sales.active.list():
-  print "%s, %s: %d products" % (sale.name, sale.description, len(sale.products))
-
+for sale in GiltApiClient().sales.upcoming('womens'):
+  print "upcoming womens sale: %s" % sale.name
 ```
 
 ### Get details on a product in a sale
 
-The below will print details on all products in the first active sale in the kids store.
+A ``Sale`` object contains URLs to retrieve details on the products for sale, but it does not directly contain the product details.
+
+The example below will pick the first active sale in the kids store and then download and print details on the first 3 products:
 
 ```python
 
