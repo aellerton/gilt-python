@@ -10,8 +10,8 @@ setup(
     url = "http://github.com/gilt/gilt-python/",
     keywords = ["gilt"],
     install_requires = [
-        "httplib2 == 0.7.1", 
-        "iso8601 == 0.1.4",
+        "httplib2 >= 0.7.2", 
+        "iso8601 >= 0.1.4",
         ],
     packages = find_packages(),
     classifiers = [
