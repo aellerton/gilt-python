@@ -286,6 +286,12 @@ class SaleList(object):
     
   def __getitem__(self, index):
     return self.sales[index]
+
+  def __setitem__(self, index, value):
+    self.sales[index] = value
+
+  def sort(self, by=None):
+    self.sales.sort(by)
     
   def list(self, store=None):
     """

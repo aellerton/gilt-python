@@ -40,3 +40,12 @@ def print_sale_details(sale):
   
   print
 
+def by_sale_name(a, b):
+  return cmp(a.sale, b.sale)
+
+def by_sale_begins(a, b):
+  return cmp(a.begins, b.begins)
+
+def by_sale_ends(a, b):
+  return cmp(a.ends, b.ends)
+
