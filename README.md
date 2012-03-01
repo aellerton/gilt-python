@@ -11,6 +11,7 @@ Do this:
     python virtualenv.py playpython
     . ./playpython/bin/activate
     pip install gilt-python
+    export GILT_API_KEY=xxxxxxxxxxxxxxxxxxx # get from https://dev.gilt.com/user/register
     python
     
     >>> from gilt.rest import GiltApiClient
