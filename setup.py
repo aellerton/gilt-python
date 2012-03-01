@@ -2,11 +2,11 @@ from gilt import __version__
 from setuptools import setup, find_packages
 
 setup(
-    name = "gilt",
+    name = "gilt-python",
     version = __version__,
     description = "Gilt API client",
     author = "Gilt Groupe",
-    author_email = "python-tech@gilt.com",
+    author_email = "andrewjellerton+gilt-python@gmail.com",
     url = "http://github.com/gilt/gilt-python/",
     keywords = ["gilt"],
     install_requires = [
