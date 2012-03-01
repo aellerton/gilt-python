@@ -1,3 +1,5 @@
+# gilt-python
+
 Use gilt-python to access the Gilt API to obtain sale and product data on live and upcoming sales.
 
 ## Installation

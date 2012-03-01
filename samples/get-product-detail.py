@@ -8,9 +8,7 @@ for sale in client.sales.active('women'):
     print 'First 3 (of %d) products of sale "%s"' % (len(sale.products), sale.name)
     
     for url in sale.products[0:3]:
-      
       product = client.products.get(url=url) 
-      
       print
       print '  %s:' % product.name
       print '    Web:    %s' % product.url

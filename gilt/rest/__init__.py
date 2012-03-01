@@ -1,9 +1,11 @@
 import os
 import httplib2
+import simplejson as json
 from urllib import urlencode
+from gilt import GiltException
+from gilt import GiltRestException
 from gilt import GiltAuthException
 from gilt import AUTH_KEY_MISSING
-from gilt.rest.setup import json
 from gilt.rest.resources import Sale
 from gilt.rest.resources import SaleList
 from gilt.rest.resources import Product
@@ -62,11 +64,15 @@ class GiltApiClient(object):
     
     headers = {}
     http = self.http(timeout=timeout)
-    resp, content = http.request(url, 'GET', headers=headers, body=None)
-    
-    #print ">>>resp=",resp
-    #print ">>>content len:",len(content)
-    return json.loads(content)
+    try:
+      resp, content = http.request(url, 'GET', headers=headers, body=None)
+      if int(resp.status) != 200:
+        raise GiltRestException(resp.status, url, content)
+      #print ">>>resp=",resp
+      #print ">>>content len:",len(content)
+      return json.loads(content)
+    except json.decoder.JSONDecodeError, e:
+      raise GiltException("Failed to load [%s]: %s" % (url, e), e)
     
     
 class SalesSection(object):

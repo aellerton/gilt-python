@@ -2,14 +2,7 @@ import os
 import logging
 import iso8601
 from datetime import datetime
-
-try: 
-  import simplejson as json
-except ImportError:
-  try:
-    import json
-  except ImportError:
-    from django.utils import simplejson as json
+import simplejson as json
 
 # --- >8 --- >8 --- >8 --- >8 --- >8 --- >8
 

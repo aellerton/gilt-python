@@ -10,6 +10,7 @@ setup(
     url = "http://github.com/gilt/gilt-python/",
     keywords = ["gilt"],
     install_requires = [
+        "simplejson >= 2.3.3", 
         "httplib2 >= 0.7.2", 
         "iso8601 >= 0.1.4",
         ],
