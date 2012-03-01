@@ -12,6 +12,23 @@ Download a copy from github and either use directly, or install:
     
 You can also [download the latest source ZIP](https://github.com/gilt/gilt-python/zipball/master) or [tgz](https://github.com/aellerton/gilt-python/tarball/master) and unpack/install.
 
+If you'd like to keep your python installation pristine and clean, ``virtualenv`` is your friend:
+
+    cd /wherever/you/like
+    rm -f virtualenv.py && wget --no-check-certificate https://raw.github.com/pypa/virtualenv/master/virtualenv.py
+    python virtualenv.py playpython
+    . ./playpython/bin/activate
+
+Now you should get this:
+
+    (playpython) $ which python
+    /wherever/you/like/playpython/bin/python
+
+Installation is then as normal, and your "real" python installation will be untouched:
+
+    cd gilt-python
+    python setup.py install
+
 You may need to run the install with `sudo`.
 
 Coming soon: Pypi and pip installation!
