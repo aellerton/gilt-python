@@ -5,9 +5,9 @@ setup(
     name = "gilt-python",
     version = __version__,
     description = "Gilt API client",
-    author = "Gilt Groupe",
+    author = "AJEllerton",
     author_email = "andrewjellerton+gilt-python@gmail.com",
-    url = "http://github.com/gilt/gilt-python/",
+    url = "https://github.com/aellerton/gilt-python",
     keywords = ["gilt"],
     install_requires = [
         "simplejson >= 2.3.3", 
@@ -34,7 +34,6 @@ setup(
 
     DESCRIPTION
     The Gilt API allows developers access to sale and product information from gilt.com.
-    and much more.  See http://www.github.com/twilio/twilio-python for more information.
 
     LICENSE 
     The Python Gilt API distributed under the Apache Softare License.

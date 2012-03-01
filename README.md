@@ -2,9 +2,35 @@
 
 Use gilt-python to access the Gilt API to obtain sale and product data on live and upcoming sales on gilt.com.
 
+## 30-Second Guide
+
+Do this:
+
+    cd /wherever/you/want
+    rm -f virtualenv.py && wget --no-check-certificate https://raw.github.com/pypa/virtualenv/master/virtualenv.py
+    python virtualenv.py playpython
+    . ./playpython/bin/activate
+    pip install gilt-python
+    python
+    
+    >>> from gilt.rest import GiltApiClient
+    >>> for sale in GiltApiClient().sales.active(): # print the name of each active sale!
+    ...   print sale.name
+    ... 
+    
+    Calico Critters
+    The Perfect Easter Outfit From Busy Bees
+    Outdoor Style feat. Pearl River Modern…
+    
+    >>>
+
 ## Installation
 
-Download a copy from github and either use directly, or install:
+The easiest installation is via pip:
+
+    pip install gilt-python
+
+You can clone the repo from github directly with:
 
     git clone git@github.com:aellerton/gilt-python.git
     cd gilt-python
@@ -31,8 +57,6 @@ Installation is then as normal, and your "real" python installation will be unto
 
 You may need to run the install with `sudo`.
 
-Coming soon: Pypi and pip installation!
-
 ## Status
 
 I've given the current release the version "0.7.1":
@@ -47,7 +71,6 @@ Next scheduled work:
 
 - change rest decorator to a subclass
 - some general cleanups
-- put on pypi
 
 ## Getting Started
 
@@ -64,17 +87,17 @@ When you set your API key this way you can instantiate a client with no argument
 
 ```python
 
-from gilt import GiltRestClient
+from gilt.rest import GiltApiClient
 
-client = GiltRestClient()
+client = GiltApiClient()
 ```
 
 In your own programs you don't have to follow this approach. The client can be instantiated with an API key as a parameter, as below:
 
 ```python
-from gilt import GiltRestClient
+from gilt.rest import GiltApiClient
 
-client = GiltRestClient(api_key='xxxxxxxxxxxxxxxxxxxxxxx')
+client = GiltApiClient(api_key='xxxxxxxxxxxxxxxxxxxxxxx')
 ```
 
 In general the environment variable method is encouraged.
