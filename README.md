@@ -1,19 +1,20 @@
 # gilt-python
 
-Use gilt-python to access the Gilt API to obtain sale and product data on live and upcoming sales.
+Use gilt-python to access the Gilt API to obtain sale and product data on live and upcoming sales on gilt.com.
 
 ## Installation
 
-Use [pip](http://www.pip-installer.org/en/latest/) to install:
+Download a copy from github and either use directly, or install:
 
-    $ pip install gilt
+    git clone git@github.com:aellerton/gilt-python.git
+    cd gilt-python
+    python setup.py install
+    
+You can also [download the latest source ZIP](https://github.com/gilt/gilt-python/zipball/master) or [tgz](https://github.com/aellerton/gilt-python/tarball/master) and unpack/install.
 
-You can fall back to ye olde way of installing (but pip is awesomer) by
-[downloading the latest source (ZIP)](https://github.com/gilt/gilt-python/zipball/master "gilt-pythonsource code") and then run:
+You may need to run the install with `sudo`.
 
-    $ python setup.py install
-
-You may need to run the above commands with `sudo`.
+Coming soon: Pypi and pip installation!
 
 ## Getting Started
 
@@ -24,7 +25,7 @@ Before you run any sample you'll need an API key. These are free at the [Gilt de
 The samples are written using the "auto-detect" API key model, which means you need to set
 the API key in your environment, with:
 
-   $ export GILT_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
+    $ export GILT_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
 
 Set up in this way you can instantiate a client with no arguments:
 
@@ -49,6 +50,7 @@ In general the environment variable method is encouraged.
 
 If you are using the source distribution, you can run samples by first setting the ``PYTHONPATH`` variable:
 
+    $ cd wherever/gilt-python
     $ export PYTHONPATH=`pwd`
     $ python samples/list-active-sales.py 
 
@@ -130,10 +132,10 @@ The above examples get all gilt.com sales.
 
 You can pick a single store by providing an argument to ``active()`` or ``upcoming()``. Current valid arguments are:
 
-* women
-* men
-* kids
-* home
+- women
+- men
+- kids
+- home
 
 ```python
 
@@ -176,22 +178,22 @@ for i, product in enumerate(products):
 ## Design Principles
 
 * Model classes should be pythonic.
-
-  Users should not have to use dictionaries to access fields.
-  Types should be what you expect, including dates.
+   
+    Users should not have to use dictionaries to access fields.
+    Types should be what you expect, including dates.
 
 * Loading data should be pythonic.
-
-  Throwing together big and small programs should use familiar constructs with minimal magic.
+   
+    Throwing together big and small programs should use familiar constructs with minimal magic.
 
 * Respect and reflect the API
-
-  Naming is kept as consistent as possible with exactly what the API provides.
-  This includes methods, classes and fields.
+   
+    Naming is kept as consistent as possible with exactly what the API provides.
+    This includes methods, classes and fields.
 
 * Timezone Neutral
-
-  Everything is in UTC. It is recommended that you work with UTC except for display formatting.
+   
+    Everything is in UTC. It is recommended that you work with UTC except for display formatting.
 
 * more...
 
