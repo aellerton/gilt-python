@@ -16,6 +16,22 @@ You may need to run the install with `sudo`.
 
 Coming soon: Pypi and pip installation!
 
+## Status
+
+I've given the current release the version "0.7.1":
+
+    >>> import gilt
+    >>> gilt.__version__
+    '0.7.1'
+
+This is intended to convey "coming along, some weaknesses, but works". Hope that comes through ;)
+
+Next scheduled work:
+
+- change rest decorator to a subclass
+- some general cleanups
+- put on pypi
+
 ## Getting Started
 
 Before you run any sample you'll need an API key. These are free at the [Gilt developer website](https://dev.gilt.com/user/register). While there, [browse the API documentation](https://dev.gilt.com/page/gilt-public-apis).
