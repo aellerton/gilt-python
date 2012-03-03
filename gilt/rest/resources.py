@@ -126,17 +126,17 @@ class Sale(object):
   details of a specific sale
     https://api.gilt.com/v1/sales/men/winter-weather-48/detail.json
   """
-  fields = dict(
-    name = str,
-    sale = str, # api url for details
-    sale_key = str,
-    store = str,
-    sale_url = str, # gilt.com url
-    begins = datetime,
-    ends = datetime,
-    image_urls = MediaSet,
+  fields        = dict(
+    name        = str,
+    sale        = str, # api url for details
+    sale_key    = str,
+    store       = str,
+    sale_url    = str, # gilt.com url
+    begins      = datetime,
+    ends        = datetime,
+    image_urls  = MediaSet,
     description = str,
-    products = None, # list of strings, each string is an api url for product details
+    products    = None, # list of strings, each string is an api url for product details
     )
   
   def __init__(self):
