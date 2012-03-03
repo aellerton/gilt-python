@@ -21,7 +21,8 @@ class ProductLookImage(object):
 @rest_key_assign(call="add", value_type=ProductLookImage)
 @rest_resource
 class MediaSet(object):
-  """xxx
+  """A MediaSet represents a list of images in a set of resolutions.
+  For example, there might be 3 images in 300x400 and 4 in 91x121.
   """
   def __init__(self):
     self.sets = dict()
@@ -114,9 +115,17 @@ class Product(object):
     
     return self.load_json(self.resource_client.get_json(url))
     
+  @property
+  def media_set(self):
+    """This allows product.media_set to be an alias for product.image_urls.
+    The name "image_urls" is how the API exposes the media set, but it may
+    be more intutive to access it as "media_set".
+    """
+    return self.image_urls
+
   detail = get
   __call__ = get
-
+  
 
 @rest_resource
 class Sale(object):
@@ -157,6 +166,14 @@ class Sale(object):
     # will add {store}/{sale_key}/detail.json
     url = '%s/%s/%s/detail' % (self.resource_base_url, store, sale_key)
     return self.load_json(self.resource_client.get_json(url))
+
+  @property
+  def media_set(self):
+    """This allows sale.media_set to be an alias for sale.image_urls.
+    The name "image_urls" is how the API exposes the media set, but it may
+    be more intutive to access it as "media_set".
+    """
+    return self.image_urls
     
   detail = get
   __call__ = get
