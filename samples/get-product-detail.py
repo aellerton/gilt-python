@@ -7,7 +7,7 @@ for sale in client.sales.active('women'):
   product_urls = sale.products[0:3]
   if not product_urls: continue
 
-  print 'First %d (of %d) products of sale "%s"' % (len(product_urls), len(sale.products), sale.name)
+  print 'First %d products (of %d) of sale "%s"' % (len(product_urls), len(sale.products), sale.name)
     
   for url in product_urls:
     product = client.products.get(url=url) 
