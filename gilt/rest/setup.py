@@ -14,6 +14,7 @@ def rest_resource(klass):
   fields = getattr(klass, 'fields', None) or dict()
   
   def __init__(self,  resource_client=None,  resource_base_url=None, resource_tail_url=None,  **kwargs):
+    # Attributes startin with "resource_" are considered reserved names.
     self.resource_client = resource_client
     self.resource_base_url = resource_base_url
     self.resource_tail_url = resource_tail_url
@@ -49,6 +50,7 @@ def rest_resource(klass):
         #print ">>> constructing '%s' -> %r as %s" % (json_key, json_value, field_class)
         return field_class(json_value) # e.g. str, int, float
     else:
+      #print "WARNING: class %s doesn't have field %s" %(klass.__name__, json_key)
       return json_value
 
   def load_json(json_blob, *args, **kwargs):
@@ -59,8 +61,13 @@ def rest_resource(klass):
       json_blob = json.loads(json_blob)
     
     if isinstance(json_blob, dict):
+      # The most common case is that a mapping of key/value pairs is received.
+      # Transform each value into a strongly typed object first, keeping the key.
+      # This transformed dictionary is then passed either to the class constructor
+      # (which then assigns each (k,v) into self.k = v) or into a rest_key_assign'd
+      # special loader function.
       transformed_json_dict = dict(
-        (k,transform_json_value_type(k, v)) for k,v in json_blob.iteritems()
+        (k, transform_json_value_type(k, v)) for k,v in json_blob.iteritems()
         )
       load_json_dict = getattr(klass, 'load_json_dict', None)
       if load_json_dict:
@@ -69,7 +76,8 @@ def rest_resource(klass):
         return klass(**transformed_json_dict)
       
     elif isinstance(json_blob, list):
-      # The json_blob is a list of something kind of object. 
+      # Second most common case is to receive a list of things, like a list
+      # of Sale or Product objects. This will decode each one and return as a list.
       return [load_json(sub_blob) for sub_blob in json_blob]
       
     else:

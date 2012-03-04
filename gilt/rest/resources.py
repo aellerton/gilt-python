@@ -6,11 +6,20 @@ from gilt.rest.setup import rest_key_assign
 
 @rest_resource
 class ProductContent(object):
-  pass
+  fields = dict(
+    origin      = str,
+    material    = str,
+    description = str,
+    )
 
 
 @rest_resource
 class ProductLookImage(object):
+  fields = dict(
+    url    = str,
+    width  = int,
+    height = int,
+    )
   @property
   def size(self):
     """Convenience method to return (width,height) as a tuple.
@@ -60,11 +69,11 @@ class SkuAttribute(object):
 @rest_resource
 class Sku(object):
   fields = dict(
-    id = int,
+    id               = int,
     inventory_status = str, # TODO: consider a class here
-    msrp_price = float,
-    sale_price = float,
-    attributes = SkuAttribute,
+    msrp_price       = float,
+    sale_price       = float,
+    attributes       = SkuAttribute,
   )
   
   def __init__(self):
@@ -95,9 +104,14 @@ class Product(object):
     https://api.gilt.com/v1/products/124344157/detail.json
   """
   fields = dict(
-    content = ProductContent,
+    id         = int, # TODO: consider rename to product_id, as id is technically reserved.
+    name       = str,
+    url        = str, # gilt.com url to view product. TODO: consider rename to gilt_url.
+    product    = str, # Api Url to retrieve product details. TODO: consider rename to api_url.
+    brand      = str,
+    content    = ProductContent,
     image_urls = MediaSet,
-    skus = Sku,
+    skus       = Sku,
   )
     
   @property
@@ -105,13 +119,17 @@ class Product(object):
     return len(self.skus)
 
   def get(self, product_id=None, url=None):
+    """Return a new Product object representing either product_id (if specified)
+    or the full url. Either product_id or the url must be specified.
+    """
     if product_id:
       # base_url is /products, so add {id}/detail.json
       url = '%s/%s/detail' % (self.resource_base_url, product_id)
     elif url:
+      # nothing to do - the url must be ready to go.
       pass
     else:
-      raise ValueError('Product.get: specify either id or url')
+      raise ValueError('Product.get: specify either product_id or url')
     
     return self.load_json(self.resource_client.get_json(url))
     
