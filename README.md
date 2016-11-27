@@ -1,5 +1,7 @@
 # gilt-python
 
+NOTE: As of 2016-11-27 this package has been removed from PyPi and is unsupported. 
+
 Use gilt-python to access the Gilt API to obtain sale and product data on live and upcoming sales on gilt.com.
 
 ## 30-Second Guide
